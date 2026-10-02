@@ -107,7 +107,30 @@ def test_depth_sampling_scales_and_ignores_zeros():
     assert sample_box_depth(d, (0, 0, 960, 720), rgb_shape) is None
 
 
-def test_pathon_without_phone_raises_source_error():
+def test_pathon_without_phone_raises_source_error(monkeypatch):
+    import subprocess
+    from types import SimpleNamespace
     from handguide.sources import PathOnSource
-    with pytest.raises(SourceError):
+    # simulate "no iPhone on USB" regardless of what is plugged in right now
+    monkeypatch.setattr(subprocess, "run", lambda *a, **k: SimpleNamespace(stdout=""))
+    with pytest.raises(SourceError, match="no iPhone"):
         PathOnSource(timeout_s=1.0)
+
+
+def test_rotated_source_keeps_rgb_and_depth_aligned(tmp_path):
+    from handguide.sources import RotatedSource
+
+    class One:
+        stats = None
+
+        def __iter__(self):
+            rgb = np.zeros((120, 160, 3), np.uint8)
+            rgb[0:10, 0:20] = 255                      # marker at top-left
+            d = np.zeros((48, 64), np.float32)
+            d[0:4, 0:8] = 1.0                          # same marker in depth
+            yield Frame(ts=0, rgb=rgb, depth=d)
+
+    fr = next(iter(RotatedSource(One(), 90)))
+    assert fr.rgb.shape == (160, 120, 3) and fr.depth.shape == (64, 48)
+    # clockwise: top-left goes to top-right, in both images
+    assert fr.rgb[0:20, -10:].mean() == 255 and fr.depth[0:8, -4:].mean() == 1.0

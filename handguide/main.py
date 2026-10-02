@@ -25,7 +25,7 @@ from .depth import DepthEstimator
 from .guidance import Guide, GuidanceConfig
 from .hand import HandTracker
 from .slow_loop import CosmosClient, LatestFrame, SlowLoop
-from .sources import SourceError, open_source
+from .sources import RotatedSource, SourceError, open_source
 from .speech import SpeechGate, Speaker
 from .target import OpenVocabDetector, TargetTracker
 from .timing import StageTimer
@@ -129,6 +129,8 @@ def parse_args(argv=None):
     p.add_argument("--loop", action="store_true", help="loop the video")
     p.add_argument("--repeat", type=int, default=1, help="images: yield each image N times")
     p.add_argument("--max-width", type=int, default=960, help="downscale frames wider than this")
+    p.add_argument("--rotate", type=int, default=0, choices=[0, 90, 180, 270],
+                   help="rotate frames clockwise (phone held upright sends sideways frames: try 90 or 270)")
     p.add_argument("--max-frames", type=int, default=0)
     p.add_argument("--max-seconds", type=float, default=0)
     # target
@@ -181,6 +183,8 @@ def run(args):
     except SourceError as e:
         print(f"[source] {e}", file=sys.stderr)
         return 2
+    if args.rotate:
+        src = RotatedSource(src, args.rotate)
 
     recorder = Recorder(args.record) if args.record else None
     if args.record_only:

@@ -322,8 +322,10 @@ class PathOnSource(FrameSource):
     aligned with RGB. Low-confidence depth pixels (0) are set to 0.
     """
 
-    def __init__(self, host: str | None = None, port: int = 8888, timeout_s: float = 5.0, min_conf: int = 1):
+    def __init__(self, host: str | None = None, port: int = 8888, timeout_s: float = 5.0, min_conf: int = 1,
+                 max_width: int | None = 960):
         self.stats = SourceStats()
+        self.max_width = max_width
         try:
             from sdk import IPhoneSensorClient
         except Exception as e:
@@ -379,7 +381,11 @@ class PathOnSource(FrameSource):
                 continue
             last = time.perf_counter()
             t = time.perf_counter()
-            rgb = cv2.cvtColor(fr.color, cv2.COLOR_BGR2RGB)
+            bgr = fr.color
+            if self.max_width and bgr.shape[1] > self.max_width:  # 1920x1440 is wasteful for every stage
+                sc = self.max_width / bgr.shape[1]
+                bgr = cv2.resize(bgr, (self.max_width, int(round(bgr.shape[0] * sc))), interpolation=cv2.INTER_AREA)
+            rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
             depth = np.array(fr.depth, dtype=np.float32, copy=True)
             conf = getattr(fr, "confidence", None)
             if conf is not None and conf.shape == depth.shape:
@@ -398,6 +404,32 @@ class PathOnSource(FrameSource):
             pass
 
 
+class RotatedSource(FrameSource):
+    """Rotates RGB and depth together, clockwise by 90/180/270 degrees. Phones send landscape
+    sensor frames; when the phone is held upright the image is sideways, which would swap the
+    up/down and left/right cues. Rotate until people look upright in --display."""
+
+    CODES = {90: cv2.ROTATE_90_CLOCKWISE, 180: cv2.ROTATE_180, 270: cv2.ROTATE_90_COUNTERCLOCKWISE}
+
+    def __init__(self, inner: FrameSource, degrees: int):
+        self.inner, self.code = inner, self.CODES[degrees]
+        self.stats = inner.stats
+
+    def __iter__(self):
+        for fr in self.inner:
+            fr.rgb = np.ascontiguousarray(cv2.rotate(fr.rgb, self.code))
+            if fr.depth is not None:
+                fr.depth = np.ascontiguousarray(cv2.rotate(fr.depth, self.code))
+            yield fr
+
+    def reset_clock(self):
+        if hasattr(self.inner, "reset_clock"):
+            self.inner.reset_clock()
+
+    def close(self):
+        self.inner.close()
+
+
 def open_source(kind: str, path: str | None = None, paced: bool = True, camera_index: int = 0,
                 repeat: int = 1, max_width: int | None = None, loop: bool = False) -> FrameSource:
     if kind == "webcam":
@@ -413,5 +445,5 @@ def open_source(kind: str, path: str | None = None, paced: bool = True, camera_i
     if kind == "record3d":
         return Record3DSource(camera_index)
     if kind == "pathon":
-        return PathOnSource(host=path)  # --path IPHONE_IP for Wi-Fi; omit for USB
+        return PathOnSource(host=path, max_width=max_width)  # --path IPHONE_IP for Wi-Fi; omit for USB
     raise SourceError(f"unknown source {kind}")
