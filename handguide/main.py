@@ -252,6 +252,9 @@ def run(args):
                 fr = next(it)
             except StopIteration:
                 break
+            except SourceError as e:  # e.g. the phone stopped streaming: end the run but keep the logs
+                print(f"[source] {e} -- stopping and saving the run", file=sys.stderr)
+                break
             if first:
                 hand.detect(fr.rgb, int(fr.ts * 1000))
                 target.update(fr.rgb)

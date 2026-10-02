@@ -134,3 +134,26 @@ def test_rotated_source_keeps_rgb_and_depth_aligned(tmp_path):
     assert fr.rgb.shape == (160, 120, 3) and fr.depth.shape == (64, 48)
     # clockwise: top-left goes to top-right, in both images
     assert fr.rgb[0:20, -10:].mean() == 255 and fr.depth[0:8, -4:].mean() == 1.0
+
+
+def test_run_saves_summary_when_source_dies_mid_run(tmp_path, monkeypatch):
+    import json
+    import handguide.main as m
+
+    class Dying:
+        stats = __import__("handguide.sources", fromlist=["SourceStats"]).SourceStats()
+
+        def __iter__(self):
+            for i in range(3):
+                yield Frame(ts=i / 30, rgb=np.zeros((120, 160, 3), np.uint8), index=i, due_wall=time.perf_counter())
+            raise SourceError("stream stopped")
+
+        def close(self):
+            pass
+
+    monkeypatch.setattr(m, "open_source", lambda *a, **k: Dying())
+    args = m.parse_args(["--source", "video", "--path", "x", "--no-audio", "--detector", "none",
+                         "--depth", "off", "--log-dir", str(tmp_path)])
+    assert m.run(args) == 0
+    s = json.loads((tmp_path / "summary.json").read_text())
+    assert s["frames_processed"] == 2  # first frame is warm-up
