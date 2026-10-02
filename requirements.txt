@@ -19,3 +19,5 @@ record3d                     # needs `brew install cmake` first
 #   uv pip install 'git+https://github.com/YoshiRi/Record3DStream#subdirectory=sdk'
 #   then reinstall opencv-contrib-python (the SDK pulls in opencv-python, which hides CSRT).
 #   SDK licence: personal/non-commercial use only, no redistribution. Do not vendor it into this repo.
+# Sensory Agent sound classifier (sensory/audio_scene.py): YAMNet TFLite runtime
+ai-edge-litert

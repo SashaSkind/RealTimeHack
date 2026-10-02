@@ -2,6 +2,10 @@
 Open Model License) into models/. YOLO weights, the MediaPipe hand model and Depth Anything download
 on first use; the MediaPipe model URL is below.
 
+YAMNet for sensory/audio_scene.py goes in models/yamnet/ (yamnet.tflite + yamnet_class_map.csv):
+  kagglehub model "google/yamnet/tfLite/classification-tflite" and
+  https://raw.githubusercontent.com/tensorflow/models/master/research/audioset/yamnet/yamnet_class_map.csv
+
   python bench/fetch_models.py
   curl -L -o models/hand_landmarker.task https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task
 """
