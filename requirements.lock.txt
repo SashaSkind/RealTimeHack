@@ -1,0 +1,15 @@
+clip @ git+https://github.com/ultralytics/CLIP.git@a13192f8cb767260d7dfd98c843b0716593169e7
+huggingface-hub==1.33.0
+mediapipe==0.10.35
+numpy==2.4.6
+opencv-contrib-python==5.0.0.93
+pillow==12.3.0
+pytest==9.1.1
+record3d==1.4.1
+requests==2.34.2
+sounddevice==0.5.6
+timm==1.0.30
+torch==2.14.0
+torchvision==0.29.0
+transformers==5.17.0
+ultralytics==8.4.166

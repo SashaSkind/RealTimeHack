@@ -1,0 +1,21 @@
+# Install:  uv venv .venv --python 3.11 && source .venv/bin/activate && uv pip install -r requirements.txt && uv pip install -e .
+# Exact versions that were tested on 2026-09-29 are in requirements.lock.txt.
+numpy
+opencv-contrib-python        # NOT opencv-python: CSRT/KCF trackers live in contrib. If ultralytics pulls in opencv-python,
+                             # run: uv pip uninstall opencv-python opencv-contrib-python && uv pip install opencv-contrib-python
+mediapipe<1                  # 1.0.1 crashes on macOS (Metal service unavailable); 0.10.35 works with the CPU delegate
+ultralytics
+clip @ git+https://github.com/ultralytics/CLIP.git   # text encoder for YOLO-World / YOLOE prompts
+torch
+torchvision
+transformers                 # Depth Anything V2 Small
+timm
+sounddevice
+requests
+pytest
+record3d                     # needs `brew install cmake` first
+# Optional: free iPhone LiDAR streaming via the "Record3DStream - PathOn" app (--source pathon).
+#   brew install libimobiledevice
+#   uv pip install 'git+https://github.com/YoshiRi/Record3DStream#subdirectory=sdk'
+#   then reinstall opencv-contrib-python (the SDK pulls in opencv-python, which hides CSRT).
+#   SDK licence: personal/non-commercial use only, no redistribution. Do not vendor it into this repo.

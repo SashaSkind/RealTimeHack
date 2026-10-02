@@ -1,0 +1,20 @@
+# environment and secrets
+.venv/
+.env*
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# model weights (13 GB): see bench/fetch_models.py
+models/
+
+# generated / local-only
+output/logs/
+output/runs/
+data/recordings/
+data/clips/synthetic_photos.mp4
+data/photos/_cand/
+data/photos/_grid/
+data/photos/_check/
+data/photos/_dropped/
