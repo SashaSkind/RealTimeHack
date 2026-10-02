@@ -1,0 +1,18 @@
+{
+ "tag": "def_8b_schema_hints",
+ "model": "cosmos-8b",
+ "json_mode": "schema",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 30,
+ "target_kw": 30,
+ "affordance_kw": 29,
+ "box_returned": 30,
+ "iou_ge_0.5": 25,
+ "iou_ge_0.3": 28,
+ "median_iou": 0.889,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 12.345,
+ "sec_p95": 14.012,
+ "sec_max": 17.29
+}

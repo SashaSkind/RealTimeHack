@@ -1,0 +1,5572 @@
+{
+ "yoloworld": {
+  "speed": {
+   "mps": [
+    24.7,
+    31.2
+   ],
+   "cpu": [
+    63.2,
+    78.0
+   ]
+  },
+  "metrics": {
+   "single@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.14285714285714285,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.3333333333333333,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_07.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.4,
+      "neg_fire": 0.34210526315789475,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2866666666666667,
+     "hit_loose": 0.3088888888888889,
+     "fp_per_img": 0.3222222222222222,
+     "neg_fire": 0.11750530171582803
+    }
+   },
+   "single@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.0,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.22222222222222224,
+     "neg_fire": 0.042105263157894736
+    }
+   },
+   "single@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.5,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.1,
+     "neg_fire": 0.042105263157894736
+    }
+   },
+   "single@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.15789473684210525,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.031578947368421054
+    }
+   },
+   "multi@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.5,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.4,
+      "neg_fire": 0.39285714285714285,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.4444444444444444,
+      "hit_loose": 0.5555555555555556,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_06.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 2.5,
+      "neg_fire": 0.3684210526315789,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.3888888888888889,
+     "hit_loose": 0.4111111111111111,
+     "fp_per_img": 0.6022222222222222,
+     "neg_fire": 0.20042413726624253
+    }
+   },
+   "multi@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.3,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.4,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.26,
+     "hit_loose": 0.26,
+     "fp_per_img": 0.3422222222222222,
+     "neg_fire": 0.06353383458646616
+    }
+   },
+   "multi@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.9,
+      "neg_fire": 0.18421052631578946,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.22000000000000003,
+     "fp_per_img": 0.2,
+     "neg_fire": 0.04398496240601504
+    }
+   },
+   "multi@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.13157894736842105,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.13999999999999999,
+     "neg_fire": 0.02631578947368421
+    }
+   },
+   "tuned@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.3,
+      "hit_loose": 0.6,
+      "fp_per_img": 0.4,
+      "neg_fire": 0.32142857142857145,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_08.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_06.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 2.5,
+      "neg_fire": 0.3684210526315789,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.3044444444444444,
+     "hit_loose": 0.36444444444444446,
+     "fp_per_img": 0.6022222222222222,
+     "neg_fire": 0.175882012724118
+    }
+   },
+   "tuned@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.14285714285714285,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.5,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.26222222222222225,
+     "hit_loose": 0.2822222222222222,
+     "fp_per_img": 0.3622222222222222,
+     "neg_fire": 0.07067669172932331
+    }
+   },
+   "tuned@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.8,
+      "neg_fire": 0.18421052631578946,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.24,
+     "fp_per_img": 0.2,
+     "neg_fire": 0.051127819548872175
+    }
+   },
+   "tuned@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.15789473684210525,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.22000000000000003,
+     "fp_per_img": 0.12,
+     "neg_fire": 0.031578947368421054
+    }
+   }
+  }
+ },
+ "yoloworld-m": {
+  "speed": {
+   "mps": [
+    26.3,
+    30.7
+   ],
+   "cpu": [
+    136.5,
+    164.5
+   ]
+  },
+  "metrics": {
+   "single@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.3333333333333333,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_06.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.5,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.24666666666666667,
+     "hit_loose": 0.28888888888888886,
+     "fp_per_img": 0.3,
+     "neg_fire": 0.06261808367071524
+    }
+   },
+   "single@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.1,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.20222222222222222,
+     "hit_loose": 0.24444444444444446,
+     "fp_per_img": 0.22000000000000003,
+     "neg_fire": 0.03130904183535762
+    }
+   },
+   "single@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.05263157894736842,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.18,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.010526315789473684
+    }
+   },
+   "single@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.05263157894736842,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.18,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.04,
+     "neg_fire": 0.010526315789473684
+    }
+   },
+   "multi@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.5,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.7,
+      "neg_fire": 0.23684210526315788,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.34444444444444444,
+     "hit_loose": 0.40888888888888886,
+     "fp_per_img": 0.38,
+     "neg_fire": 0.10158087526508579
+    }
+   },
+   "multi@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.3,
+      "neg_fire": 0.13157894736842105,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.24222222222222226,
+     "hit_loose": 0.28444444444444444,
+     "fp_per_img": 0.26,
+     "neg_fire": 0.04884326200115674
+    }
+   },
+   "multi@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.05263157894736842,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.20222222222222222,
+     "hit_loose": 0.24444444444444446,
+     "fp_per_img": 0.12,
+     "neg_fire": 0.010526315789473684
+    }
+   },
+   "multi@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 0.9,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.05263157894736842,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.20222222222222222,
+     "hit_loose": 0.22222222222222224,
+     "fp_per_img": 0.04,
+     "neg_fire": 0.010526315789473684
+    }
+   },
+   "tuned@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.5,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.3333333333333333,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_06.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.6,
+      "neg_fire": 0.23684210526315788,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.36666666666666664,
+     "hit_loose": 0.3888888888888889,
+     "fp_per_img": 0.34,
+     "neg_fire": 0.06678234046655099
+    }
+   },
+   "tuned@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.2,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2422222222222222,
+     "hit_loose": 0.2644444444444444,
+     "fp_per_img": 0.24,
+     "neg_fire": 0.021052631578947368
+    }
+   },
+   "tuned@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.5,
+      "neg_fire": 0.05263157894736842,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.1,
+     "neg_fire": 0.010526315789473684
+    }
+   },
+   "tuned@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.05263157894736842,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.04,
+     "neg_fire": 0.010526315789473684
+    }
+   }
+  }
+ },
+ "yoloe": {
+  "speed": {
+   "mps": [
+    27.0,
+    34.8
+   ],
+   "cpu": [
+    83.9,
+    105.9
+   ]
+  },
+  "metrics": {
+   "single@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.21428571428571427,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.4,
+      "neg_fire": 0.14285714285714285,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.3333333333333333,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.5714285714285714,
+      "neg_fire": 0.48717948717948717,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.5,
+      "neg_fire": 0.2631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.26666666666666666,
+     "hit_loose": 0.3088888888888889,
+     "fp_per_img": 0.6142857142857142,
+     "neg_fire": 0.2266242529400424
+    }
+   },
+   "single@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.4,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.14285714285714285,
+      "neg_fire": 0.20512820512820512,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.2,
+      "neg_fire": 0.13157894736842105,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22222222222222224,
+     "hit_loose": 0.2422222222222222,
+     "fp_per_img": 0.38857142857142857,
+     "neg_fire": 0.11019857335646807
+    }
+   },
+   "single@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.13999999999999999,
+     "neg_fire": 0.035338345864661655
+    }
+   },
+   "single@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_06.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.07894736842105263,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2,
+     "hit_loose": 0.2,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.015789473684210527
+    }
+   },
+   "multi@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.4,
+      "fp_per_img": 0.9,
+      "neg_fire": 0.2857142857142857,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.3,
+      "hit_loose": 0.6,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.35714285714285715,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_04.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.7142857142857143,
+      "neg_fire": 0.5128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.2564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.5,
+      "neg_fire": 0.2631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.3888888888888889,
+     "hit_loose": 0.5555555555555556,
+     "fp_per_img": 0.7650793650793651,
+     "neg_fire": 0.3350491613649508
+    }
+   },
+   "multi@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.5,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.4,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.25,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.2857142857142857,
+      "neg_fire": 0.3076923076923077,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.15384615384615385,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.2,
+      "neg_fire": 0.13157894736842105,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.26222222222222225,
+     "hit_loose": 0.4066666666666666,
+     "fp_per_img": 0.4371428571428571,
+     "neg_fire": 0.20433776749566226
+    }
+   },
+   "multi@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.21428571428571427,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.3244444444444444,
+     "fp_per_img": 0.16,
+     "neg_fire": 0.10072296124927704
+    }
+   },
+   "multi@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.07894736842105263,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.26222222222222225,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.049489107383844225
+    }
+   },
+   "tuned@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.5,
+      "hit_loose": 0.6,
+      "fp_per_img": 0.8,
+      "neg_fire": 0.42857142857142855,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.6,
+      "fp_per_img": 0.7,
+      "neg_fire": 0.35714285714285715,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_04.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.7142857142857143,
+      "neg_fire": 0.5128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.5555555555555556,
+      "fp_per_img": 0.1111111111111111,
+      "neg_fire": 0.23076923076923078,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.5,
+      "neg_fire": 0.2631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.4066666666666666,
+     "hit_loose": 0.6177777777777778,
+     "fp_per_img": 0.7650793650793651,
+     "neg_fire": 0.35849238480817425
+    }
+   },
+   "tuned@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.4,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.5,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.35714285714285715,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.2857142857142857,
+      "neg_fire": 0.3076923076923077,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.2,
+      "neg_fire": 0.13157894736842105,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.32222222222222224,
+     "hit_loose": 0.42666666666666664,
+     "fp_per_img": 0.45714285714285713,
+     "neg_fire": 0.2155099286678234
+    }
+   },
+   "tuned@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.4,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.21428571428571427,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.27999999999999997,
+     "hit_loose": 0.34444444444444444,
+     "fp_per_img": 0.16,
+     "neg_fire": 0.0935801041064199
+    }
+   },
+   "tuned@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.4,
+      "hit_loose": 0.4,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.07894736842105263,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.27999999999999997,
+     "hit_loose": 0.3022222222222222,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.049489107383844225
+    }
+   }
+  }
+ },
+ "yoloe-m": {
+  "speed": {
+   "mps": [
+    36.3,
+    42.0
+   ],
+   "cpu": [
+    188.1,
+    228.9
+   ]
+  },
+  "metrics": {
+   "single@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.8,
+      "neg_fire": 0.35714285714285715,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.2222222222222222,
+      "fp_per_img": 0.2857142857142857,
+      "neg_fire": 0.20512820512820512,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.8,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2866666666666667,
+     "hit_loose": 0.3911111111111111,
+     "fp_per_img": 0.5771428571428572,
+     "neg_fire": 0.20053017158280317
+    }
+   },
+   "single@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.14285714285714285,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.4,
+      "neg_fire": 0.15789473684210525,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2644444444444444,
+     "hit_loose": 0.3044444444444444,
+     "fp_per_img": 0.42857142857142855,
+     "neg_fire": 0.10923462502409871
+    }
+   },
+   "single@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.9,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.24,
+     "fp_per_img": 0.22000000000000003,
+     "neg_fire": 0.043580104106419895
+    }
+   },
+   "single@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.02631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.24,
+     "fp_per_img": 0.12,
+     "neg_fire": 0.005263157894736842
+    }
+   },
+   "multi@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.4,
+      "fp_per_img": 1.4,
+      "neg_fire": 0.42857142857142855,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.21428571428571427,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.2857142857142857,
+      "neg_fire": 0.3076923076923077,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.7777777777777778,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.3333333333333333,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_03.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.8,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.3288888888888889,
+     "hit_loose": 0.5422222222222223,
+     "fp_per_img": 0.6971428571428572,
+     "neg_fire": 0.2988818199344515
+    }
+   },
+   "multi@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.9,
+      "neg_fire": 0.35714285714285715,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.21428571428571427,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.14285714285714285,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.6666666666666666,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.23076923076923078,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.4,
+      "neg_fire": 0.18421052631578946,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.30666666666666664,
+     "hit_loose": 0.45555555555555555,
+     "fp_per_img": 0.4885714285714286,
+     "neg_fire": 0.2126662810873337
+    }
+   },
+   "multi@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.5555555555555556,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.1282051282051282,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.9,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.28444444444444444,
+     "hit_loose": 0.3711111111111111,
+     "fp_per_img": 0.22000000000000003,
+     "neg_fire": 0.09266435319066897
+    }
+   },
+   "multi@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.02631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.28444444444444444,
+     "hit_loose": 0.3488888888888889,
+     "fp_per_img": 0.12,
+     "neg_fire": 0.027790630422209372
+    }
+   },
+   "tuned@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.5,
+      "hit_loose": 0.6,
+      "fp_per_img": 1.0,
+      "neg_fire": 0.4642857142857143,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_05.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.9,
+      "neg_fire": 0.5357142857142857,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.2857142857142857,
+      "neg_fire": 0.28205128205128205,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.8888888888888888,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.3076923076923077,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.8,
+      "neg_fire": 0.21052631578947367,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.40888888888888886,
+     "hit_loose": 0.6644444444444444,
+     "fp_per_img": 0.7971428571428572,
+     "neg_fire": 0.3600539811066127
+    }
+   },
+   "tuned@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.4,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.35714285714285715,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.4,
+      "fp_per_img": 0.4,
+      "neg_fire": 0.42857142857142855,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.14285714285714285,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.8888888888888888,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.2564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.4,
+      "neg_fire": 0.18421052631578946,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.3466666666666667,
+     "hit_loose": 0.58,
+     "fp_per_img": 0.44857142857142857,
+     "neg_fire": 0.2606516290726817
+    }
+   },
+   "tuned@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.2857142857142857,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.5555555555555556,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.1282051282051282,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.9,
+      "neg_fire": 0.10526315789473684,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.28444444444444444,
+     "hit_loose": 0.3711111111111111,
+     "fp_per_img": 0.22000000000000003,
+     "neg_fire": 0.14980721033352612
+    }
+   },
+   "tuned@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.21428571428571427,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.02631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.28444444444444444,
+     "hit_loose": 0.3488888888888889,
+     "fp_per_img": 0.13999999999999999,
+     "neg_fire": 0.07577597840755734
+    }
+   }
+  }
+ },
+ "yoloe26": {
+  "speed": {
+   "mps": [
+    29.4,
+    35.0
+   ],
+   "cpu": [
+    87.0,
+    112.0
+   ]
+  },
+  "metrics": {
+   "single@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.1794871794871795,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.2,
+      "neg_fire": 0.23684210526315788,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.28444444444444444,
+     "hit_loose": 0.28444444444444444,
+     "fp_per_img": 0.3,
+     "neg_fire": 0.15377867746288798
+    }
+   },
+   "single@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.0,
+      "neg_fire": 0.15789473684210525,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.28444444444444444,
+     "hit_loose": 0.28444444444444444,
+     "fp_per_img": 0.26,
+     "neg_fire": 0.08066319645267013
+    }
+   },
+   "single@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.07894736842105263,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.22000000000000003,
+     "fp_per_img": 0.12,
+     "neg_fire": 0.031174089068825912
+    }
+   },
+   "single@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.1,
+      "hit_loose": 0.1,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg",
+       "light_switch_09.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.02631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.22000000000000003,
+     "hit_loose": 0.22000000000000003,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.01039136302294197
+    }
+   },
+   "multi@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.5,
+      "neg_fire": 0.2857142857142857,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.3076923076923077,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.3333333333333333,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.15384615384615385,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.2,
+      "neg_fire": 0.23684210526315788,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.30666666666666664,
+     "hit_loose": 0.3288888888888889,
+     "fp_per_img": 0.36,
+     "neg_fire": 0.21110468478889532
+    }
+   },
+   "multi@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.4,
+      "neg_fire": 0.25,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.15384615384615385,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.0,
+      "neg_fire": 0.15789473684210525,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.28444444444444444,
+     "hit_loose": 0.28444444444444444,
+     "fp_per_img": 0.3,
+     "neg_fire": 0.1471467129361866
+    }
+   },
+   "multi@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.14285714285714285,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.07894736842105263,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.26222222222222225,
+     "hit_loose": 0.26222222222222225,
+     "fp_per_img": 0.12,
+     "neg_fire": 0.07201657991131676
+    }
+   },
+   "multi@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_02.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.02631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.26222222222222225,
+     "hit_loose": 0.26222222222222225,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.03694813957971853
+    }
+   },
+   "tuned@0.05": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.3,
+      "hit_loose": 0.5,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_03.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.25,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.23076923076923078,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.2222222222222222,
+      "hit_loose": 0.4444444444444444,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.1794871794871795,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_04.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.2,
+      "neg_fire": 0.23684210526315788,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.32666666666666666,
+     "hit_loose": 0.4111111111111111,
+     "fp_per_img": 0.33999999999999997,
+     "neg_fire": 0.2151339888181994
+    }
+   },
+   "tuned@0.1": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.3,
+      "hit_loose": 0.4,
+      "fp_per_img": 0.1,
+      "neg_fire": 0.07142857142857142,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.2,
+      "neg_fire": 0.17857142857142858,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10256410256410256,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 1.0,
+      "neg_fire": 0.15789473684210525,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.3044444444444444,
+     "hit_loose": 0.3244444444444444,
+     "fp_per_img": 0.26,
+     "neg_fire": 0.11747638326585697
+    }
+   },
+   "tuned@0.2": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.3,
+      "hit_loose": 0.3,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.10714285714285714,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.07692307692307693,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.6,
+      "neg_fire": 0.07894736842105263,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.2822222222222222,
+     "hit_loose": 0.2822222222222222,
+     "fp_per_img": 0.12,
+     "neg_fire": 0.06285907075380759
+    }
+   },
+   "tuned@0.3": {
+    "per_cat": {
+     "lever_handle": {
+      "n": 10,
+      "hit": 0.2,
+      "hit_loose": 0.2,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.0,
+      "n_neg": 28,
+      "misses": [
+       "lever_handle_01.jpg",
+       "lever_handle_03.jpg",
+       "lever_handle_04.jpg",
+       "lever_handle_05.jpg",
+       "lever_handle_07.jpg",
+       "lever_handle_08.jpg",
+       "lever_handle_09.jpg",
+       "lever_handle_10.jpg"
+      ]
+     },
+     "door_knob": {
+      "n": 10,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.03571428571428571,
+      "n_neg": 28,
+      "misses": [
+       "door_knob_01.jpg",
+       "door_knob_02.jpg",
+       "door_knob_03.jpg",
+       "door_knob_04.jpg",
+       "door_knob_05.jpg",
+       "door_knob_06.jpg",
+       "door_knob_07.jpg",
+       "door_knob_08.jpg",
+       "door_knob_09.jpg",
+       "door_knob_10.jpg"
+      ]
+     },
+     "cabinet_handle": {
+      "n": 9,
+      "hit": 0.0,
+      "hit_loose": 0.0,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.02564102564102564,
+      "n_neg": 39,
+      "misses": [
+       "cabinet_handle_01.jpg",
+       "cabinet_handle_02.jpg",
+       "cabinet_handle_03.jpg",
+       "cabinet_handle_04.jpg",
+       "cabinet_handle_05.jpg",
+       "cabinet_handle_06.jpg",
+       "cabinet_handle_07.jpg",
+       "cabinet_handle_08.jpg",
+       "cabinet_handle_09.jpg"
+      ]
+     },
+     "light_switch": {
+      "n": 9,
+      "hit": 0.1111111111111111,
+      "hit_loose": 0.1111111111111111,
+      "fp_per_img": 0.0,
+      "neg_fire": 0.05128205128205128,
+      "n_neg": 39,
+      "misses": [
+       "light_switch_01.jpg",
+       "light_switch_02.jpg",
+       "light_switch_03.jpg",
+       "light_switch_04.jpg",
+       "light_switch_05.jpg",
+       "light_switch_06.jpg",
+       "light_switch_07.jpg",
+       "light_switch_08.jpg"
+      ]
+     },
+     "cup": {
+      "n": 10,
+      "hit": 1.0,
+      "hit_loose": 1.0,
+      "fp_per_img": 0.3,
+      "neg_fire": 0.02631578947368421,
+      "n_neg": 38,
+      "misses": []
+     }
+    },
+    "total": {
+     "hit": 0.26222222222222225,
+     "hit_loose": 0.26222222222222225,
+     "fp_per_img": 0.06,
+     "neg_fire": 0.02779063042220937
+    }
+   }
+  }
+ }
+}

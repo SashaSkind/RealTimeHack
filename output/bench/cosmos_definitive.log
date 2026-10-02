@@ -1,0 +1,101 @@
+lever_handle_01.jpg    ok=True 16.36s iou=0.125 alt=0.046 | door handle | lever handle - press the lever down, then push or pull the | press the lever down and push the door handle to open the door
+lever_handle_02.jpg    ok=True 15.88s iou=0.669 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+lever_handle_03.jpg    ok=True 16.04s iou=0.94 alt=0.312 | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+lever_handle_04.jpg    ok=True 14.37s iou=0.45 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+lever_handle_05.jpg    ok=True 14.17s iou=0.867 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+lever_handle_06.jpg    ok=True 15.60s iou=0.591 alt=None | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+lever_handle_07.jpg    ok=True 14.09s iou=0.407 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+lever_handle_08.jpg    ok=True 15.33s iou=0.838 alt=None | door handle | grip and turn the ornate metal handle to open the door | grip the ornate metal handle and turn it to open the door
+lever_handle_09.jpg    ok=True 14.91s iou=0.354 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+lever_handle_10.jpg    ok=True 15.23s iou=0.183 alt=None | lever door handle | press the lever down, then push or pull the door | press the lever down and push the door to open it
+door_knob_01.jpg       ok=True 13.28s iou=0.95 alt=0.126 | round door knob | grip and turn | Grip the round door knob and turn it to open the door.
+door_knob_02.jpg       ok=True 12.27s iou=0.935 alt=0.435 | door handle | grip and turn | Turn the door handle to open the door
+door_knob_03.jpg       ok=True 13.08s iou=0.918 alt=0.0 | round door knob | grip and turn | Grip the round door knob and turn it to open the door.
+door_knob_04.jpg       ok=True 13.74s iou=0.867 alt=0.006 | round door knob | grip and turn | Grip the round door knob and turn it to open the door.
+door_knob_05.jpg       ok=True 13.46s iou=0.956 alt=0.13 | round door knob | grip and turn | Grip the round door knob and turn it to open the door.
+door_knob_06.jpg       ok=True 12.83s iou=0.955 alt=0.043 | round door knob | grip and turn | Grip the round door knob and turn it to open the door.
+door_knob_07.jpg       ok=True 13.95s iou=0.891 alt=0.038 | round door knob | grip and turn | grip the round door knob and turn it to open the door
+door_knob_08.jpg       ok=True 14.22s iou=0.902 alt=None | round door knob | grip and turn | grip the round door knob and turn it to open the door
+door_knob_09.jpg       ok=True 15.00s iou=0.71 alt=None | round door knob | grip and turn | grip the round door knob and turn it to open the door
+door_knob_10.jpg       ok=True 13.25s iou=0.887 alt=0.0 | round door knob | grip and turn | grip the round door knob and turn it to open the door
+cup_01.jpg             ok=True 13.72s iou=0.969 alt=0.316 | white ceramic mug | grip the handle or body and lift | Grip the mug's handle or body and lift it off the surface.
+cup_02.jpg             ok=True 13.13s iou=0.977 alt=0.28 | white ceramic mug | grip the handle and lift | Grip the mug handle and lift it off the table gently
+cup_03.jpg             ok=True 14.32s iou=0.963 alt=0.249 | mug | grip the handle or body and lift | Grip the mug's handle or body and lift it off the table surface.
+cup_04.jpg             ok=True 12.84s iou=0.952 alt=0.416 | mug | grip the handle and lift | Grip the mug handle and lift it off the saucer gently
+cup_05.jpg             ok=True 14.26s iou=0.856 alt=0.0 | cup | grip the handle and lift | Grip the cup's handle and lift it off the saucer gently.
+cup_06.jpg             ok=True 13.89s iou=0.931 alt=0.0 | white ceramic cup | grip the handle and lift | grip the handle of the white ceramic cup and lift it off the table
+cup_07.jpg             ok=True 14.26s iou=0.931 alt=None | mug | grip the handle or body and lift | Grip the mug's handle or body and lift it off the table gently.
+cup_08.jpg             ok=True 13.86s iou=0.733 alt=0.0 | white mug | grip the handle or body and lift | grip the mug's handle or body and lift it off the table
+cup_09.jpg             ok=True 13.50s iou=0.81 alt=0.002 | cup | grip the handle and lift | grip the cup handle and lift it off the saucer
+cup_10.jpg             ok=True 13.69s iou=0.934 alt=None | cup | grip the handle or body and lift | grip the cup's handle or body to lift it off the table
+{
+ "tag": "def_8b_schema_hints",
+ "model": "cosmos-8b",
+ "json_mode": "schema",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 30,
+ "target_kw": 30,
+ "affordance_kw": 29,
+ "box_returned": 30,
+ "iou_ge_0.5": 25,
+ "iou_ge_0.3": 28,
+ "median_iou": 0.889,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 14.02,
+ "sec_p95": 15.968,
+ "sec_max": 16.36
+}
+lever_handle_01.jpg    ok=True  3.45s iou=0.171 alt=0.102 | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_02.jpg    ok=True  4.46s iou=0.552 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_03.jpg    ok=True  5.31s iou=0.861 alt=0.25 | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_04.jpg    ok=True  5.73s iou=0.412 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_05.jpg    ok=True  4.92s iou=0.855 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_06.jpg    ok=True  4.25s iou=0.471 alt=None | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_07.jpg    ok=True  4.47s iou=0.517 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_08.jpg    ok=True  4.01s iou=0.541 alt=None | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_09.jpg    ok=True  4.48s iou=0.735 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+lever_handle_10.jpg    ok=True  4.43s iou=0.0 alt=None | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_01.jpg       ok=True  4.31s iou=0.959 alt=0.125 | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_02.jpg       ok=True  4.44s iou=0.927 alt=0.423 | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_03.jpg       ok=True  5.52s iou=0.937 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_04.jpg       ok=True  4.05s iou=0.73 alt=0.0 | round door knob | grip and turn | grip and turn the knob
+door_knob_05.jpg       ok=True  4.23s iou=0.958 alt=0.134 | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_06.jpg       ok=True  4.72s iou=0.797 alt=0.034 | round door knob | grip and turn | grip and turn the knob
+door_knob_07.jpg       ok=True  4.72s iou=0.198 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_08.jpg       ok=True  4.13s iou=0.17 alt=None | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_09.jpg       ok=True  4.18s iou=0.194 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+door_knob_10.jpg       ok=True  4.15s iou=0.852 alt=0.0 | lever door handle | press the lever down, then push or pull the door | press the lever down
+cup_01.jpg             ok=True  4.05s iou=0.919 alt=0.271 | cup | grip the handle or body and lift | grip the handle and lift the cup
+cup_02.jpg             ok=True  4.24s iou=0.904 alt=0.233 | cup | grip the handle or body and lift | grip the handle and lift the cup
+cup_03.jpg             ok=True  4.15s iou=0.81 alt=0.132 | cup | grip the handle or body and lift | grip the handle and lift the cup
+cup_04.jpg             ok=True  4.21s iou=0.658 alt=0.206 | cup | grip and lift | grip the handle and lift the cup
+cup_05.jpg             ok=True  3.90s iou=0.65 alt=0.0 | cup | grip and lift | grip the handle and lift the cup
+cup_06.jpg             ok=True  3.97s iou=0.83 alt=0.0 | white cup | grip and lift | grip the handle and lift
+cup_07.jpg             ok=True  4.06s iou=0.79 alt=None | cup | grip the handle or body and lift | grip the handle and lift the cup
+cup_08.jpg             ok=True  4.15s iou=0.476 alt=0.0 | cup | grip the handle and lift | grip the handle and lift the cup
+cup_09.jpg             ok=True  4.82s iou=0.307 alt=0.0 | cup | grip and lift | grip the cup and lift
+cup_10.jpg             ok=True  4.81s iou=0.87 alt=None | cup | grip the handle and lift | grip the cup handle and lift
+{
+ "tag": "def_2b_schema_hints",
+ "model": "cosmos-2b",
+ "json_mode": "schema",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 30,
+ "target_kw": 30,
+ "affordance_kw": 22,
+ "box_returned": 30,
+ "iou_ge_0.5": 21,
+ "iou_ge_0.3": 25,
+ "median_iou": 0.7324999999999999,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 4.245,
+ "sec_p95": 5.425499999999999,
+ "sec_max": 5.73
+}
+lever_handle_01.jpg    ok=True 13.41s iou=0.128 alt=0.044 | door handle | horizontal lever handle, pull down to open the door | pull the door handle downward to open the door
+lever_handle_02.jpg    ok=True 19.25s iou=0.783 alt=0.0 | door handle | lever handle, turn clockwise to unlock and open the door | turn the door handle clockwise to unlock and open the door
+lever_handle_03.jpg    ok=True 17.78s iou=0.948 alt=0.32 | door handle | lever handle, pull down to open | pull the lever handle down to open the door
+lever_handle_04.jpg    ok=True 19.86s iou=0.457 alt=0.0 | door handle | lever handle, rotate clockwise to unlock and pull to open | rotate the lever handle clockwise and pull to open the door
+lever_handle_05.jpg    ok=True 19.78s iou=0.847 alt=0.0 | door handle | pull the handle downward to open the door | gently pull the door handle downward to open the door

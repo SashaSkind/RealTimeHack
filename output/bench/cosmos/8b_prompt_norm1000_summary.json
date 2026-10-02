@@ -1,0 +1,18 @@
+{
+ "tag": "8b_prompt_norm1000",
+ "model": "cosmos-8b",
+ "json_mode": "prompt",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 29,
+ "target_kw": 29,
+ "affordance_kw": 22,
+ "box_returned": 29,
+ "iou_ge_0.5": 24,
+ "iou_ge_0.3": 27,
+ "median_iou": 0.891,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 7.175000000000001,
+ "sec_p95": 7.681,
+ "sec_max": 16.3
+}

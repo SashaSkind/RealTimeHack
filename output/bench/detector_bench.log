@@ -1,0 +1,13 @@
+== yoloworld
+/Users/sasha/RTHACK/.venv/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+   done in 34s speed={'mps': (24.67906242236495, 31.249575281981375), 'cpu': (63.15585400443524, 78.02036519860849)}
+== yoloworld-m
+   done in 33s speed={'mps': (26.295832940377295, 30.7405833969824), 'cpu': (136.4519374910742, 164.54706081422046)}
+== yoloe
+   done in 28s speed={'mps': (26.978916605003178, 34.81530626304448), 'cpu': (83.85077107232064, 105.88231706060465)}
+== yoloe-m
+   done in 35s speed={'mps': (36.315958481281996, 41.994443663861595), 'cpu': (188.08666651602834, 228.89801263809198)}
+== yoloe26
+   done in 24s speed={'mps': (29.353979509323835, 35.00224562594667), 'cpu': (87.03697961755097, 111.96803086204454)}
+wrote /Users/sasha/RTHACK/output/bench/detector_results.md

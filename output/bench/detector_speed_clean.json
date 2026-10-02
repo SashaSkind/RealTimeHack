@@ -1,0 +1,6 @@
+{"_note": "Measured 20:34-20:43 on 2026-09-29 (first run of detector_bench.py, see detector_bench.log), before battery throttling. ms per 1024-px photo at imgsz 640, median and p95.",
+ "yoloworld": {"mps": [24.7, 31.2], "cpu": [63.2, 78.0]},
+ "yoloworld-m": {"mps": [26.3, 30.7], "cpu": [136.5, 164.5]},
+ "yoloe": {"mps": [27.0, 34.8], "cpu": [83.9, 105.9]},
+ "yoloe-m": {"mps": [36.3, 42.0], "cpu": [188.1, 228.9]},
+ "yoloe26": {"mps": [29.4, 35.0], "cpu": [87.0, 112.0]}}

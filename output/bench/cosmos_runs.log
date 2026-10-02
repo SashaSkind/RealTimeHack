@@ -1,0 +1,233 @@
+++ dirname bench/run_cosmos_all.sh
++ cd bench/..
++ source .venv/bin/activate
+++ '[' -z '' ']'
+++ '[' -n x ']'
+++ SCRIPT_PATH=.venv/bin/activate
+++ '[' .venv/bin/activate = bench/run_cosmos_all.sh ']'
+++ deactivate nondestructive
+++ unset -f pydoc
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ hash -r
+++ '[' -z '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/sasha/RTHACK/.venv
+++ '[' darwin25 = cygwin ']'
+++ '[' darwin25 = msys ']'
+++ export VIRTUAL_ENV
+++ '[' -z '' ']'
+++ unset SCRIPT_PATH
+++ _OLD_VIRTUAL_PATH=/Users/sasha/RTHACK/.venv/bin:/Users/sasha/.local/bin:/Users/sasha/.codeium/windsurf/bin:/Users/sasha/.pyenv/shims:/Users/sasha/.pyenv/bin:/Users/sasha/.pyenv/bin:/Users/sasha/.pyenv/bin:/Library/TeX/texbin:/Library/TeX/texbin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Users/sasha/.local/bin:/Users/sasha/.codeium/windsurf/bin:/Users/sasha/.cabal/bin:/Users/sasha/.ghcup/bin:/Users/sasha/.pyenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin
+++ PATH=/Users/sasha/RTHACK/.venv/bin:/Users/sasha/RTHACK/.venv/bin:/Users/sasha/.local/bin:/Users/sasha/.codeium/windsurf/bin:/Users/sasha/.pyenv/shims:/Users/sasha/.pyenv/bin:/Users/sasha/.pyenv/bin:/Users/sasha/.pyenv/bin:/Library/TeX/texbin:/Library/TeX/texbin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Users/sasha/.local/bin:/Users/sasha/.codeium/windsurf/bin:/Users/sasha/.cabal/bin:/Users/sasha/.ghcup/bin:/Users/sasha/.pyenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin
+++ export PATH
+++ '[' x '!=' x ']'
++++ basename /Users/sasha/RTHACK/.venv
+++ VIRTUAL_ENV_PROMPT=.venv
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ alias pydoc
+++ true
+++ hash -r
++ python bench/cosmos_eval.py --url http://127.0.0.1:8083/v1 --model cosmos-8b --tag 8b_prompt_norm1000 --json-mode prompt
+lever_handle_01.jpg    ok=True  5.57s iou=0.128 alt=0.044 | door handle | horizontal lever handle, pull down to open the door | pull the door handle downward to open the door
+lever_handle_02.jpg    ok=True  7.43s iou=0.703 alt=0.0 | door handle | lever handle, turn clockwise to unlock and pull to open | turn the lever handle clockwise and pull to open the door
+lever_handle_03.jpg    ok=True  6.69s iou=0.955 alt=0.32 | door handle | lever handle, pull down to open | pull the lever handle down to open the door
+lever_handle_04.jpg    ok=True  7.08s iou=0.457 alt=0.0 | door handle | lever handle, pull down to open | pull the lever handle down to open the door
+lever_handle_05.jpg    ok=True  7.37s iou=0.872 alt=0.0 | door handle | metallic lever handle with a cylindrical grip | grip the handle firmly and pull it downward to open the door
+lever_handle_06.jpg    ok=True  6.86s iou=0.52 alt=None | door handle | metallic lever handle | gently grasp the door handle and pull it downward to open the door
+lever_handle_07.jpg    ok=True  7.21s iou=0.414 alt=0.0 | door handle | turn the wooden handle to open the door | turn the wooden door handle to open the door
+lever_handle_08.jpg    ok=True  6.40s iou=0.84 alt=None | door handle | turn the handle to open the door | turn the door handle to open the door
+lever_handle_09.jpg    ok=True  6.99s iou=0.355 alt=0.0 | door handle | turn the handle clockwise to unlock and open the door | turn the handle clockwise to unlock and open the door
+lever_handle_10.jpg    ok=True  6.68s iou=0.18 alt=None | door handle | lever handle, turn clockwise to unlock and open | turn the lever handle clockwise to unlock and open the door
+door_knob_01.jpg       ok=True  7.39s iou=0.959 alt=0.131 | door handle | turn the knob clockwise to unlock and open the door | turn the door handle clockwise to unlock and open the door
+door_knob_02.jpg       ok=True  7.33s iou=0.925 alt=0.435 | door handle | turn the key in the lock to unlock the door | insert the key into the lock and turn it clockwise
+door_knob_03.jpg       ok=True  7.16s iou=0.935 alt=0.0 | door handle | knob, rotate clockwise to open | rotate the golden door knob clockwise to open the door
+door_knob_04.jpg       ok=True  7.09s iou=0.847 alt=0.0 | door handle | turn the knob clockwise to open the door | gently grasp the door handle and turn it clockwise to open the door
+door_knob_05.jpg       ok=True  7.44s iou=0.971 alt=0.137 | door handle | rotate the black cylindrical handle with gold accent | grip the black door handle and turn it clockwise to unlock the door
+door_knob_06.jpg       ok=True  7.51s iou=0.941 alt=0.043 | door handle | turn the ornate brass knob to open the door | gently grasp and turn the ornate brass door knob
+door_knob_07.jpg       ok=True  7.31s iou=0.891 alt=0.038 | door handle | black round knob, turn clockwise to open | gently grasp the black round knob and turn it clockwise
+door_knob_08.jpg       ok=True  6.52s iou=0.902 alt=None | door handle | round yellow knob, rotate clockwise to open | rotate the yellow door knob clockwise to open the door
+door_knob_09.jpg       ok=True  7.30s iou=0.657 alt=None | door handle | round white knob, turn clockwise to open | turn the round white door handle clockwise to open the door
+door_knob_10.jpg       ok=True  7.03s iou=0.883 alt=0.0 | door handle | turn the ornate brass knob to open the door | turn the ornate brass knob to open the door
+cup_01.jpg             ok=True  7.19s iou=0.984 alt=0.32 | mug | cylindrical shape with a handle for gripping | Grip the handle and lift the mug straight up
+cup_02.jpg             ok=True  7.06s iou=0.981 alt=0.284 | white ceramic mug | grip the handle to lift the mug | grip the handle of the white ceramic mug to lift it
+cup_03.jpg             ok=True  6.44s iou=0.956 alt=0.255 | cup | handle | Grasp the handle of the cup to lift it securely.
+cup_04.jpg             ok=True  7.69s iou=0.948 alt=0.416 | cup | cylindrical shape with handle, stable base | Grasp the cup's handle firmly and lift it straight up from the saucer
+cup_05.jpg             ok=True  6.82s iou=0.856 alt=0.0 | cup | handle | Grasp the cup's handle to lift it securely from the saucer
+cup_06.jpg             ok=True  7.45s iou=0.931 alt=0.0 | white ceramic cup | grip the handle to lift | gently grasp the handle and lift the cup straight up
+cup_07.jpg             ok=True  6.77s iou=0.945 alt=None | mug | handle | Grasp the mug's handle to lift it securely from the table surface.
+cup_08.jpg             ok=False 16.30s iou=None alt=None |  |  | 
+cup_09.jpg             ok=True  7.67s iou=0.81 alt=0.002 | cup | blue ceramic cup with handle | Grasp the blue ceramic cup with your hand to pick it up.
+cup_10.jpg             ok=True  7.42s iou=0.946 alt=None | cup | grip the handle to lift the cup | gently grasp the cup's handle to lift it off the table
+{
+ "tag": "8b_prompt_norm1000",
+ "model": "cosmos-8b",
+ "json_mode": "prompt",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 29,
+ "target_kw": 29,
+ "affordance_kw": 22,
+ "box_returned": 29,
+ "iou_ge_0.5": 24,
+ "iou_ge_0.3": 27,
+ "median_iou": 0.891,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 7.175000000000001,
+ "sec_p95": 7.681,
+ "sec_max": 16.3
+}
++ python bench/cosmos_eval.py --url http://127.0.0.1:8082/v1 --model cosmos-2b --tag 2b_prompt_norm1000 --json-mode prompt
+lever_handle_01.jpg    ok=True  1.41s iou=0.126 alt=0.039 | door handle | lever handle for pulling | pull the door handle to open the door
+lever_handle_02.jpg    ok=True  1.91s iou=0.192 alt=0.0 | door handle | lever handle for opening the door | grab the handle and pull it down
+lever_handle_03.jpg    ok=True  1.84s iou=0.925 alt=0.324 | door handle | lever handle for opening the door | grab the door handle and pull it down
+lever_handle_04.jpg    ok=True  1.89s iou=0.419 alt=0.0 | door handle | lever handle with a circular base | grab the door handle and pull it down
+lever_handle_05.jpg    ok=True  1.82s iou=0.25 alt=0.225 | door handle | lever handle with a metallic finish | grab the door handle
+lever_handle_06.jpg    ok=True  1.78s iou=0.572 alt=None | door handle | lever handle for opening the door | grab the door handle and pull it down
+lever_handle_07.jpg    ok=True  1.79s iou=0.56 alt=0.0 | door handle | lever handle with a wooden grip | grab the wooden handle
+lever_handle_08.jpg    ok=True  1.69s iou=0.736 alt=None | door handle | lever handle with a keyhole below | grab the handle and turn it
+lever_handle_09.jpg    ok=True  1.84s iou=0.351 alt=0.0 | door handle | lever handle with a round knob and a cylindrical grip | grab the door handle and pull it down
+lever_handle_10.jpg    ok=True  1.77s iou=0.456 alt=None | door handle | lever handle for opening the door | grab the handle and pull to open the door
+door_knob_01.jpg       ok=True  1.77s iou=0.829 alt=0.087 | doorknob | lever handle | grab the doorknob
+door_knob_02.jpg       ok=True  1.81s iou=0.941 alt=0.423 | lock | metal door lock with a keyhole | insert the key into the lock
+door_knob_03.jpg       ok=True  1.84s iou=0.922 alt=0.0 | doorknob | rotate clockwise to open the door | rotate the knob clockwise
+door_knob_04.jpg       ok=True  1.92s iou=0.788 alt=0.0 | doorknob | rotate clockwise to turn the knob | rotate the knob clockwise to open the door
+door_knob_05.jpg       ok=True  1.94s iou=0.929 alt=0.121 | doorknob | rotate clockwise to open the door | rotate the knob clockwise
+door_knob_06.jpg       ok=True  1.87s iou=0.797 alt=0.034 | doorknob | rotate clockwise to open the door | rotate the knob clockwise
+door_knob_07.jpg       ok=True  1.91s iou=0.865 alt=0.035 | doorknob | rotate clockwise to open the door | rotate the knob clockwise to open the door
+door_knob_08.jpg       ok=True  1.80s iou=0.714 alt=None | doorknob | lever handle | grab the doorknob and pull down
+door_knob_09.jpg       ok=True  1.83s iou=0.197 alt=0.0 | lock mechanism | lever handle | push the lock mechanism to open the door
+door_knob_10.jpg       ok=True  1.77s iou=0.872 alt=0.0 | doorknob | rotate to open the door | rotate the knob to open the door
+cup_01.jpg             ok=True  1.82s iou=0.914 alt=0.271 | coffee cup | handle for gripping | grasp the handle of the coffee cup
+cup_02.jpg             ok=True  1.85s iou=0.913 alt=0.24 | white ceramic mug | handle for gripping, surface for placing | grip the handle and lift the mug
+cup_03.jpg             ok=True  1.70s iou=0.823 alt=0.139 | cup | handle for gripping | grasp the handle of the cup
+cup_04.jpg             ok=True  1.80s iou=0.144 alt=0.149 | coffee cup | handle for gripping | grasp the handle of the coffee cup
+cup_05.jpg             ok=True  1.68s iou=0.129 alt=None | coffee cup | handle for gripping, surface for placing | grip the handle of the coffee cup
+cup_06.jpg             ok=True  1.86s iou=0.811 alt=0.0 | white cup | handle for gripping | grasp the handle of the white cup
+cup_07.jpg             ok=True  1.72s iou=0.796 alt=None | cup | handle for gripping | grasp the handle of the cup
+cup_08.jpg             ok=True  1.82s iou=0.492 alt=0.0 | white mug | handle for gripping | grasp the handle of the white mug
+cup_09.jpg             ok=True  2.02s iou=0.448 alt=0.0 | cup | handle for gripping | grasp the handle of the cup
+cup_10.jpg             ok=True  1.91s iou=0.514 alt=None | cup | handle for gripping, surface for placing | grasp the cup's handle and lift it
+{
+ "tag": "2b_prompt_norm1000",
+ "model": "cosmos-2b",
+ "json_mode": "prompt",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 30,
+ "target_kw": 28,
+ "affordance_kw": 16,
+ "box_returned": 30,
+ "iou_ge_0.5": 19,
+ "iou_ge_0.3": 24,
+ "median_iou": 0.725,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 1.82,
+ "sec_p95": 1.9309999999999998,
+ "sec_max": 2.02
+}
++ python bench/cosmos_eval.py --url http://127.0.0.1:8083/v1 --model cosmos-8b --tag 8b_schema_norm1000 --json-mode schema
+lever_handle_01.jpg    ok=True  6.22s iou=0.128 alt=0.044 | door handle | horizontal lever handle, pull down to open the door | pull the door handle downward to open the door
+lever_handle_02.jpg    ok=True  5.91s iou=0.703 alt=0.0 | door handle | lever handle, turn clockwise to unlock and pull to open | turn the lever handle clockwise and pull to open the door
+lever_handle_03.jpg    ok=True  5.65s iou=0.955 alt=0.32 | door handle | lever handle, pull down to open | pull the lever handle down to open the door
+lever_handle_04.jpg    ok=True  5.72s iou=0.457 alt=0.0 | door handle | lever handle, pull down to open | pull the lever handle down to open the door
+lever_handle_05.jpg    ok=True  5.90s iou=0.872 alt=0.0 | door handle | metallic lever handle with a cylindrical grip | grip the handle firmly and pull it downward to open the door
+lever_handle_06.jpg    ok=True  5.42s iou=0.52 alt=None | door handle | metallic lever handle | gently grasp the door handle and pull it downward to open the door
+lever_handle_07.jpg    ok=True  5.76s iou=0.414 alt=0.0 | door handle | turn the wooden handle to open the door | turn the wooden door handle to open the door
+lever_handle_08.jpg    ok=True  5.61s iou=0.84 alt=None | door handle | turn the handle to open the door | turn the door handle to open the door
+lever_handle_09.jpg    ok=True  5.81s iou=0.355 alt=0.0 | door handle | turn the handle clockwise to unlock and open the door | turn the handle clockwise to unlock and open the door
+lever_handle_10.jpg    ok=True  5.93s iou=0.18 alt=None | door handle | lever handle, turn clockwise to unlock and open | turn the lever handle clockwise to unlock and open the door
+door_knob_01.jpg       ok=True  6.12s iou=0.959 alt=0.131 | door handle | turn the knob clockwise to unlock and open the door | turn the door handle clockwise to unlock and open the door
+door_knob_02.jpg       ok=True  5.81s iou=0.925 alt=0.435 | door handle | turn the key in the lock to unlock the door | insert the key into the lock and turn it clockwise
+door_knob_03.jpg       ok=True  5.65s iou=0.935 alt=0.0 | door handle | knob, rotate clockwise to open | rotate the golden door knob clockwise to open the door
+door_knob_04.jpg       ok=True  6.11s iou=0.847 alt=0.0 | door handle | turn the knob clockwise to open the door | gently grasp the door handle and turn it clockwise to open the door
+door_knob_05.jpg       ok=True  5.84s iou=0.971 alt=0.137 | door handle | rotate the black cylindrical handle with gold accent | grip the black door handle and turn it clockwise to unlock the door
+door_knob_06.jpg       ok=True  5.82s iou=0.941 alt=0.043 | door handle | turn the ornate brass knob to open the door | gently grasp and turn the ornate brass door knob
+door_knob_07.jpg       ok=True  5.76s iou=0.891 alt=0.038 | door handle | black round knob, turn clockwise to open | gently grasp the black round knob and turn it clockwise
+door_knob_08.jpg       ok=True  5.60s iou=0.902 alt=None | door handle | round yellow knob, rotate clockwise to open | rotate the yellow door knob clockwise to open the door
+door_knob_09.jpg       ok=True  5.67s iou=0.657 alt=None | door handle | round white knob, turn clockwise to open | turn the round white door handle clockwise to open the door
+door_knob_10.jpg       ok=True  5.97s iou=0.883 alt=0.0 | door handle | turn the ornate brass knob to open the door | turn the ornate brass knob to open the door
+cup_01.jpg             ok=True  5.61s iou=0.984 alt=0.32 | mug | cylindrical shape with a handle for gripping | Grip the handle and lift the mug straight up
+cup_02.jpg             ok=True  5.76s iou=0.981 alt=0.284 | white ceramic mug | grip the handle to lift the mug | grip the handle of the white ceramic mug to lift it
+cup_03.jpg             ok=True  5.09s iou=0.956 alt=0.255 | cup | handle | Grasp the handle of the cup to lift it securely.
+cup_04.jpg             ok=True  5.88s iou=0.948 alt=0.416 | cup | cylindrical shape with handle, stable base | Grasp the cup's handle firmly and lift it straight up from the saucer
+cup_05.jpg             ok=True  5.21s iou=0.856 alt=0.0 | cup | handle | Grasp the cup's handle to lift it securely from the saucer
+cup_06.jpg             ok=True  5.63s iou=0.931 alt=0.0 | white ceramic cup | grip the handle to lift | gently grasp the handle and lift the cup straight up
+cup_07.jpg             ok=True  5.45s iou=0.945 alt=None | mug | handle | Grasp the mug's handle to lift it securely from the table surface.
+cup_08.jpg             ok=False 13.98s iou=None alt=None |  |  | 
+cup_09.jpg             ok=True  5.49s iou=0.81 alt=0.002 | cup | blue ceramic cup with handle | Grasp the blue ceramic cup with your hand to pick it up.
+cup_10.jpg             ok=True  5.89s iou=0.946 alt=None | cup | grip the handle to lift the cup | gently grasp the cup's handle to lift it off the table
+{
+ "tag": "8b_schema_norm1000",
+ "model": "cosmos-8b",
+ "json_mode": "schema",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 29,
+ "target_kw": 29,
+ "affordance_kw": 22,
+ "box_returned": 29,
+ "iou_ge_0.5": 24,
+ "iou_ge_0.3": 27,
+ "median_iou": 0.891,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 5.76,
+ "sec_p95": 6.175,
+ "sec_max": 13.98
+}
++ python bench/cosmos_eval.py --url http://127.0.0.1:8083/v1 --model cosmos-8b --tag 8b_prompt_pixel --json-mode prompt --box-format pixel
+lever_handle_01.jpg    ok=True  5.92s iou=0.045 alt=0.126 | door handle | horizontal lever handle, pull down to open the door | pull the door handle downward to open the door
+lever_handle_02.jpg    ok=True  6.04s iou=0.0 alt=0.727 | door handle | lever handle, turn clockwise to unlock and pull to open | turn the lever handle clockwise and pull to open the door
+lever_handle_03.jpg    ok=True  5.52s iou=0.32 alt=0.955 | door handle | lever handle, pull down to open | pull the lever handle down to open the door
+lever_handle_04.jpg    ok=True  5.54s iou=0.0 alt=0.457 | door handle | lever handle, pull down to open | pull the lever handle down to open the door
+lever_handle_05.jpg    ok=True  5.90s iou=0.0 alt=0.826 | door handle | metallic lever handle with a cylindrical grip | grip the handle firmly and pull it downward to open the door
+lever_handle_06.jpg    ok=True  5.55s iou=None alt=0.591 | door handle | metallic lever handle | gently grasp the metallic lever handle to open the door
+lever_handle_07.jpg    ok=True  5.63s iou=0.0 alt=0.905 | door handle | turn the wooden handle to open the door | turn the wooden door handle to open the door
+lever_handle_08.jpg    ok=True  5.64s iou=None alt=0.829 | door handle | turn the handle to open the door | turn the door handle to open the door
+lever_handle_09.jpg    ok=True  5.97s iou=0.0 alt=0.929 | door handle | turn the handle clockwise to unlock and open the door | turn the handle clockwise to unlock and open the door
+lever_handle_10.jpg    ok=True  6.07s iou=None alt=0.244 | door handle | lever handle, turn clockwise to unlock and open | turn the lever handle clockwise to unlock and open the door
+door_knob_01.jpg       ok=True  6.12s iou=0.127 alt=0.974 | door handle | turn the knob clockwise to unlock and open the door | turn the door handle clockwise to unlock and open the door
+door_knob_02.jpg       ok=True  5.95s iou=0.435 alt=0.935 | door handle | turn the key in the lock to unlock the door | insert the key into the lock and turn it clockwise
+door_knob_03.jpg       ok=True  5.71s iou=0.0 alt=0.914 | door handle | knob, rotate clockwise to open | rotate the golden door knob clockwise to open the door
+door_knob_04.jpg       ok=True  5.86s iou=0.0 alt=0.841 | door handle | turn the knob clockwise to open the door | gently grasp the door handle and turn it clockwise
+door_knob_05.jpg       ok=True  6.66s iou=0.132 alt=0.953 | door handle | turn the black doorknob with the gold accent to open the door | turn the black doorknob with the gold accent to open the door
+door_knob_06.jpg       ok=True  5.94s iou=0.043 alt=0.952 | door handle | turn the ornate brass knob to open the door | gently grasp and turn the ornate brass door knob
+door_knob_07.jpg       ok=True  5.93s iou=0.042 alt=0.891 | door handle | black round knob, turn clockwise to open | gently grasp the black round knob and turn it clockwise
+door_knob_08.jpg       ok=True  5.86s iou=None alt=0.89 | door handle | round yellow knob, rotate clockwise to open | rotate the yellow door knob clockwise to open the door
+door_knob_09.jpg       ok=True  5.83s iou=None alt=0.71 | door handle | round white knob, turn clockwise to open | turn the round white door handle clockwise to open the door
+door_knob_10.jpg       ok=True  5.60s iou=0.0 alt=0.914 | door handle | turn the ornate brass knob to open the door | turn the ornate brass door handle to open the door
+cup_01.jpg             ok=True  5.12s iou=0.316 alt=0.978 | mug | grip the handle | gently grasp the mug's handle to lift it securely
+cup_02.jpg             ok=True  5.47s iou=0.277 alt=0.977 | white ceramic mug | grip the handle to lift the mug | grip the handle of the white ceramic mug to lift it
+cup_03.jpg             ok=True  4.83s iou=0.255 alt=0.956 | cup | handle | Grasp the handle of the cup to lift it securely.
+cup_04.jpg             ok=True  5.63s iou=0.416 alt=0.941 | cup | cylindrical shape with handle, stable base | Grasp the cup's handle firmly and lift it straight up from the saucer.
+cup_05.jpg             ok=True  5.05s iou=0.0 alt=0.806 | cup | handle | Grasp the cup's handle to lift it securely from the saucer
+cup_06.jpg             ok=True  5.40s iou=0.0 alt=0.931 | white ceramic cup | grip the handle to lift | grip the handle of the white ceramic cup to lift it
+cup_07.jpg             ok=True  5.12s iou=None alt=0.931 | mug | handle | Grasp the mug's handle to lift it securely from the table surface.
+cup_08.jpg             ok=True  5.33s iou=0.0 alt=0.788 | cup | white ceramic cup with handle | Guide your hand to the white cup on the left side of the table.
+cup_09.jpg             ok=True  5.25s iou=0.002 alt=0.814 | cup | blue ceramic cup with handle | Grasp the blue ceramic cup with your hand to pick it up.
+cup_10.jpg             ok=True  5.55s iou=None alt=0.96 | cup | grip the handle to lift the cup | gently grasp the cup's handle to lift it off the table
+{
+ "tag": "8b_prompt_pixel",
+ "model": "cosmos-8b",
+ "json_mode": "prompt",
+ "box_format": "pixel",
+ "n": 30,
+ "parsed": 30,
+ "target_kw": 30,
+ "affordance_kw": 23,
+ "box_returned": 30,
+ "iou_ge_0.5": 0,
+ "iou_ge_0.3": 4,
+ "median_iou": 0.0,
+ "iou_ge_0.5_if_norm1000": 27,
+ "sec_median": 5.635,
+ "sec_p95": 6.0975,
+ "sec_max": 6.66
+}

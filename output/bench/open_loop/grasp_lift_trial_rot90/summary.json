@@ -1,0 +1,20 @@
+{
+  "clip": "data/clips/grasp_lift_trial.ogv",
+  "frames": 324,
+  "approach": [
+    200,
+    236
+  ],
+  "fps": 25.0,
+  "hand_found_in_window": 17,
+  "target_found_in_window": 37,
+  "window_frames": 37,
+  "scored_frames": 13,
+  "agreement": 1.0,
+  "agreement_smoothed_cue": 1.0,
+  "x_sign_agreement": 1.0,
+  "x_n": 1,
+  "y_sign_agreement": 1.0,
+  "y_n": 13,
+  "control_agreement_if_y_flipped": 0.0
+}

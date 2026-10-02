@@ -1,0 +1,18 @@
+{
+ "tag": "def_2b_schema_hints",
+ "model": "cosmos-2b",
+ "json_mode": "schema",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 30,
+ "target_kw": 30,
+ "affordance_kw": 22,
+ "box_returned": 30,
+ "iou_ge_0.5": 21,
+ "iou_ge_0.3": 25,
+ "median_iou": 0.7324999999999999,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 4.245,
+ "sec_p95": 5.425499999999999,
+ "sec_max": 5.73
+}

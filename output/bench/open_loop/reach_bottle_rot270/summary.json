@@ -1,0 +1,20 @@
+{
+  "clip": "data/clips/reach_bottle.ogv",
+  "frames": 24,
+  "approach": [
+    0,
+    23
+  ],
+  "fps": 25.0,
+  "hand_found_in_window": 24,
+  "target_found_in_window": 0,
+  "window_frames": 24,
+  "scored_frames": 0,
+  "agreement": NaN,
+  "agreement_smoothed_cue": NaN,
+  "x_sign_agreement": NaN,
+  "x_n": 0,
+  "y_sign_agreement": NaN,
+  "y_n": 0,
+  "control_agreement_if_y_flipped": NaN
+}

@@ -1,0 +1,222 @@
+[
+ {
+  "file": "lever_handle_01.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 15.36,
+  "target": "door handle",
+  "affordance": "lever handle - press the lever down, then push or pull the",
+  "instruction": "press the lever down and push the door handle to open the door",
+  "phase": "touching",
+  "box_raw": [
+   43.0,
+   120.0,
+   540.0,
+   705.0
+  ],
+  "iou": 0.125,
+  "iou_if_pixel": 0.046,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"door handle\",\n  \"box\": [43, 120, 540, 705],\n  \"affordance\": \"lever handle - press the lever down, then push or pull the\",\n  \"instruction\": \"press the lever down and push the door handle to open the door\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_02.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 16.48,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   326.0,
+   540.0,
+   600.0,
+   605.0
+  ],
+  "iou": 0.669,
+  "iou_if_pixel": 0.0,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [326, 540, 600, 605],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_03.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 15.37,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   218.0,
+   151.0,
+   792.0,
+   764.0
+  ],
+  "iou": 0.94,
+  "iou_if_pixel": 0.312,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [218, 151, 792, 764],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_04.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 15.92,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   198.0,
+   421.0,
+   730.0,
+   710.0
+  ],
+  "iou": 0.45,
+  "iou_if_pixel": 0.0,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [198, 421, 730, 710],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_05.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 15.45,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   101.0,
+   360.0,
+   840.0,
+   570.0
+  ],
+  "iou": 0.867,
+  "iou_if_pixel": 0.0,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [101, 360, 840, 570],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_06.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 15.28,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   792.0,
+   429.0,
+   921.0,
+   505.0
+  ],
+  "iou": 0.591,
+  "iou_if_pixel": null,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [792, 429, 921, 505],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_07.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 15.98,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   400.0,
+   241.0,
+   600.0,
+   511.0
+  ],
+  "iou": 0.407,
+  "iou_if_pixel": 0.0,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [400, 241, 600, 511],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_08.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 14.69,
+  "target": "door handle",
+  "affordance": "grip and turn the ornate metal handle to open the door",
+  "instruction": "grip the ornate metal handle and turn it to open the door",
+  "phase": "touching",
+  "box_raw": [
+   370.0,
+   405.0,
+   600.0,
+   645.0
+  ],
+  "iou": 0.838,
+  "iou_if_pixel": null,
+  "target_kw": true,
+  "affordance_kw": false,
+  "raw": "{\n  \"target\": \"door handle\",\n  \"box\": [370, 405, 600, 645],\n  \"affordance\": \"grip and turn the ornate metal handle to open the door\",\n  \"instruction\": \"grip the ornate metal handle and turn it to open the door\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_09.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 14.69,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   278.0,
+   250.0,
+   680.0,
+   920.0
+  ],
+  "iou": 0.354,
+  "iou_if_pixel": 0.0,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [278, 250, 680, 920],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ },
+ {
+  "file": "lever_handle_10.jpg",
+  "category": "lever_handle",
+  "parsed": true,
+  "error": "",
+  "seconds": 14.06,
+  "target": "lever door handle",
+  "affordance": "press the lever down, then push or pull the door",
+  "instruction": "press the lever down and push the door to open it",
+  "phase": "touching",
+  "box_raw": [
+   765.0,
+   701.0,
+   850.0,
+   739.0
+  ],
+  "iou": 0.183,
+  "iou_if_pixel": null,
+  "target_kw": true,
+  "affordance_kw": true,
+  "raw": "{\n  \"target\": \"lever door handle\",\n  \"box\": [765, 701, 850, 739],\n  \"affordance\": \"press the lever down, then push or pull the door\",\n  \"instruction\": \"press the lever down and push the door to open it\",\n  \"phase\": \"touching\"\n}"
+ }
+]

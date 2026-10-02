@@ -1,0 +1,18 @@
+{
+ "tag": "2b_prompt_norm1000",
+ "model": "cosmos-2b",
+ "json_mode": "prompt",
+ "box_format": "norm1000",
+ "n": 30,
+ "parsed": 30,
+ "target_kw": 28,
+ "affordance_kw": 16,
+ "box_returned": 30,
+ "iou_ge_0.5": 19,
+ "iou_ge_0.3": 24,
+ "median_iou": 0.725,
+ "iou_ge_0.5_if_pixel": 0,
+ "sec_median": 1.82,
+ "sec_p95": 1.9309999999999998,
+ "sec_max": 2.02
+}

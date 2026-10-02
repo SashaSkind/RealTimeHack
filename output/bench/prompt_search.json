@@ -1,0 +1,1794 @@
+{
+"yoloe|640|lever_handle|door handle|0.05": [
+0.1,
+0.21428571428571427
+],
+"yoloe|640|lever_handle|door handle|0.1": [
+0.1,
+0.10714285714285714
+],
+"yoloe|640|lever_handle|handle|0.05": [
+0.5,
+0.03571428571428571
+],
+"yoloe|640|lever_handle|handle|0.1": [
+0.1,
+0.0
+],
+"yoloe|640|lever_handle|lever handle|0.05": [
+0.6,
+0.42857142857142855
+],
+"yoloe|640|lever_handle|lever handle|0.1": [
+0.5,
+0.17857142857142858
+],
+"yoloe|640|lever_handle|door lever|0.05": [
+0.3,
+0.25
+],
+"yoloe|640|lever_handle|door lever|0.1": [
+0.2,
+0.14285714285714285
+],
+"yoloe|640|lever_handle|lever|0.05": [
+0.4,
+0.03571428571428571
+],
+"yoloe|640|lever_handle|lever|0.1": [
+0.3,
+0.03571428571428571
+],
+"yoloe|640|lever_handle|doorknob|0.05": [
+0.2,
+0.17857142857142858
+],
+"yoloe|640|lever_handle|doorknob|0.1": [
+0.2,
+0.10714285714285714
+],
+"yoloe|640|lever_handle|door handle lever|0.05": [
+0.4,
+0.2857142857142857
+],
+"yoloe|640|lever_handle|door handle lever|0.1": [
+0.3,
+0.10714285714285714
+],
+"yoloe|640|door_knob|door knob|0.05": [
+0.0,
+0.14285714285714285
+],
+"yoloe|640|door_knob|door knob|0.1": [
+0.0,
+0.10714285714285714
+],
+"yoloe|640|door_knob|doorknob|0.05": [
+0.0,
+0.17857142857142858
+],
+"yoloe|640|door_knob|doorknob|0.1": [
+0.0,
+0.10714285714285714
+],
+"yoloe|640|door_knob|knob|0.05": [
+0.0,
+0.07142857142857142
+],
+"yoloe|640|door_knob|knob|0.1": [
+0.0,
+0.0
+],
+"yoloe|640|door_knob|handle|0.05": [
+0.0,
+0.03571428571428571
+],
+"yoloe|640|door_knob|handle|0.1": [
+0.0,
+0.0
+],
+"yoloe|640|door_knob|door handle|0.05": [
+0.0,
+0.21428571428571427
+],
+"yoloe|640|door_knob|door handle|0.1": [
+0.0,
+0.10714285714285714
+],
+"yoloe|640|door_knob|round knob|0.05": [
+0.6,
+0.32142857142857145
+],
+"yoloe|640|door_knob|round knob|0.1": [
+0.3,
+0.32142857142857145
+],
+"yoloe|640|cabinet_handle|cabinet handle|0.05": [
+0.4444444444444444,
+0.48717948717948717
+],
+"yoloe|640|cabinet_handle|cabinet handle|0.1": [
+0.1111111111111111,
+0.20512820512820512
+],
+"yoloe|640|cabinet_handle|handle|0.05": [
+0.0,
+0.1794871794871795
+],
+"yoloe|640|cabinet_handle|handle|0.1": [
+0.0,
+0.02564102564102564
+],
+"yoloe|640|cabinet_handle|drawer handle|0.05": [
+0.1111111111111111,
+0.3076923076923077
+],
+"yoloe|640|cabinet_handle|drawer handle|0.1": [
+0.0,
+0.15384615384615385
+],
+"yoloe|640|cabinet_handle|drawer pull|0.05": [
+0.1111111111111111,
+0.23076923076923078
+],
+"yoloe|640|cabinet_handle|drawer pull|0.1": [
+0.0,
+0.15384615384615385
+],
+"yoloe|640|cabinet_handle|knob|0.05": [
+0.0,
+0.10256410256410256
+],
+"yoloe|640|cabinet_handle|knob|0.1": [
+0.0,
+0.02564102564102564
+],
+"yoloe|640|cabinet_handle|pull handle|0.05": [
+0.1111111111111111,
+0.15384615384615385
+],
+"yoloe|640|cabinet_handle|pull handle|0.1": [
+0.1111111111111111,
+0.0
+],
+"yoloe|640|light_switch|light switch|0.05": [
+0.0,
+0.02564102564102564
+],
+"yoloe|640|light_switch|light switch|0.1": [
+0.0,
+0.0
+],
+"yoloe|640|light_switch|switch|0.05": [
+0.5555555555555556,
+0.1794871794871795
+],
+"yoloe|640|light_switch|switch|0.1": [
+0.2222222222222222,
+0.07692307692307693
+],
+"yoloe|640|light_switch|wall switch|0.05": [
+0.4444444444444444,
+0.15384615384615385
+],
+"yoloe|640|light_switch|wall switch|0.1": [
+0.2222222222222222,
+0.10256410256410256
+],
+"yoloe|640|light_switch|switch plate|0.05": [
+0.3333333333333333,
+0.23076923076923078
+],
+"yoloe|640|light_switch|switch plate|0.1": [
+0.3333333333333333,
+0.10256410256410256
+],
+"yoloe|640|light_switch|electrical switch|0.05": [
+0.3333333333333333,
+0.23076923076923078
+],
+"yoloe|640|light_switch|electrical switch|0.1": [
+0.3333333333333333,
+0.1282051282051282
+],
+"yoloe|640|light_switch|wall plate|0.05": [
+0.4444444444444444,
+0.23076923076923078
+],
+"yoloe|640|light_switch|wall plate|0.1": [
+0.1111111111111111,
+0.07692307692307693
+],
+"yoloe|640|cup|cup|0.05": [
+1.0,
+0.2631578947368421
+],
+"yoloe|640|cup|cup|0.1": [
+1.0,
+0.13157894736842105
+],
+"yoloe|640|cup|mug|0.05": [
+1.0,
+0.15789473684210525
+],
+"yoloe|640|cup|mug|0.1": [
+1.0,
+0.07894736842105263
+],
+"yoloe|640|cup|coffee cup|0.05": [
+1.0,
+0.05263157894736842
+],
+"yoloe|640|cup|coffee cup|0.1": [
+1.0,
+0.05263157894736842
+],
+"yoloe|1024|lever_handle|door handle|0.05": [
+0.4,
+0.25
+],
+"yoloe|1024|lever_handle|door handle|0.1": [
+0.3,
+0.10714285714285714
+],
+"yoloe|1024|lever_handle|handle|0.05": [
+0.5,
+0.14285714285714285
+],
+"yoloe|1024|lever_handle|handle|0.1": [
+0.1,
+0.07142857142857142
+],
+"yoloe|1024|lever_handle|lever handle|0.05": [
+0.8,
+0.5
+],
+"yoloe|1024|lever_handle|lever handle|0.1": [
+0.7,
+0.32142857142857145
+],
+"yoloe|1024|lever_handle|door lever|0.05": [
+0.3,
+0.2857142857142857
+],
+"yoloe|1024|lever_handle|door lever|0.1": [
+0.3,
+0.21428571428571427
+],
+"yoloe|1024|lever_handle|lever|0.05": [
+0.5,
+0.2857142857142857
+],
+"yoloe|1024|lever_handle|lever|0.1": [
+0.3,
+0.21428571428571427
+],
+"yoloe|1024|lever_handle|doorknob|0.05": [
+0.1,
+0.17857142857142858
+],
+"yoloe|1024|lever_handle|doorknob|0.1": [
+0.1,
+0.14285714285714285
+],
+"yoloe|1024|lever_handle|door handle lever|0.05": [
+0.5,
+0.32142857142857145
+],
+"yoloe|1024|lever_handle|door handle lever|0.1": [
+0.3,
+0.21428571428571427
+],
+"yoloe|1024|door_knob|door knob|0.05": [
+0.0,
+0.17857142857142858
+],
+"yoloe|1024|door_knob|door knob|0.1": [
+0.0,
+0.14285714285714285
+],
+"yoloe|1024|door_knob|doorknob|0.05": [
+0.0,
+0.17857142857142858
+],
+"yoloe|1024|door_knob|doorknob|0.1": [
+0.0,
+0.14285714285714285
+],
+"yoloe|1024|door_knob|knob|0.05": [
+0.0,
+0.10714285714285714
+],
+"yoloe|1024|door_knob|knob|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloe|1024|door_knob|handle|0.05": [
+0.0,
+0.14285714285714285
+],
+"yoloe|1024|door_knob|handle|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloe|1024|door_knob|door handle|0.05": [
+0.2,
+0.25
+],
+"yoloe|1024|door_knob|door handle|0.1": [
+0.0,
+0.10714285714285714
+],
+"yoloe|1024|door_knob|round knob|0.05": [
+0.2,
+0.39285714285714285
+],
+"yoloe|1024|door_knob|round knob|0.1": [
+0.1,
+0.32142857142857145
+],
+"yoloe|1024|cabinet_handle|cabinet handle|0.05": [
+0.2222222222222222,
+0.46153846153846156
+],
+"yoloe|1024|cabinet_handle|cabinet handle|0.1": [
+0.0,
+0.15384615384615385
+],
+"yoloe|1024|cabinet_handle|handle|0.05": [
+0.0,
+0.23076923076923078
+],
+"yoloe|1024|cabinet_handle|handle|0.1": [
+0.0,
+0.07692307692307693
+],
+"yoloe|1024|cabinet_handle|drawer handle|0.05": [
+0.2222222222222222,
+0.41025641025641024
+],
+"yoloe|1024|cabinet_handle|drawer handle|0.1": [
+0.0,
+0.1794871794871795
+],
+"yoloe|1024|cabinet_handle|drawer pull|0.05": [
+0.0,
+0.2564102564102564
+],
+"yoloe|1024|cabinet_handle|drawer pull|0.1": [
+0.0,
+0.15384615384615385
+],
+"yoloe|1024|cabinet_handle|knob|0.05": [
+0.0,
+0.1282051282051282
+],
+"yoloe|1024|cabinet_handle|knob|0.1": [
+0.0,
+0.05128205128205128
+],
+"yoloe|1024|cabinet_handle|pull handle|0.05": [
+0.1111111111111111,
+0.20512820512820512
+],
+"yoloe|1024|cabinet_handle|pull handle|0.1": [
+0.0,
+0.10256410256410256
+],
+"yoloe|1024|light_switch|light switch|0.05": [
+0.1111111111111111,
+0.02564102564102564
+],
+"yoloe|1024|light_switch|light switch|0.1": [
+0.1111111111111111,
+0.0
+],
+"yoloe|1024|light_switch|switch|0.05": [
+0.6666666666666666,
+0.1794871794871795
+],
+"yoloe|1024|light_switch|switch|0.1": [
+0.4444444444444444,
+0.10256410256410256
+],
+"yoloe|1024|light_switch|wall switch|0.05": [
+0.5555555555555556,
+0.10256410256410256
+],
+"yoloe|1024|light_switch|wall switch|0.1": [
+0.2222222222222222,
+0.07692307692307693
+],
+"yoloe|1024|light_switch|switch plate|0.05": [
+0.6666666666666666,
+0.1282051282051282
+],
+"yoloe|1024|light_switch|switch plate|0.1": [
+0.4444444444444444,
+0.1282051282051282
+],
+"yoloe|1024|light_switch|electrical switch|0.05": [
+0.5555555555555556,
+0.1794871794871795
+],
+"yoloe|1024|light_switch|electrical switch|0.1": [
+0.3333333333333333,
+0.1282051282051282
+],
+"yoloe|1024|light_switch|wall plate|0.05": [
+0.7777777777777778,
+0.28205128205128205
+],
+"yoloe|1024|light_switch|wall plate|0.1": [
+0.4444444444444444,
+0.20512820512820512
+],
+"yoloe|1024|cup|cup|0.05": [
+1.0,
+0.42105263157894735
+],
+"yoloe|1024|cup|cup|0.1": [
+1.0,
+0.3684210526315789
+],
+"yoloe|1024|cup|mug|0.05": [
+1.0,
+0.23684210526315788
+],
+"yoloe|1024|cup|mug|0.1": [
+1.0,
+0.10526315789473684
+],
+"yoloe|1024|cup|coffee cup|0.05": [
+1.0,
+0.13157894736842105
+],
+"yoloe|1024|cup|coffee cup|0.1": [
+1.0,
+0.07894736842105263
+],
+"yoloe-m|640|lever_handle|door handle|0.05": [
+0.3,
+0.35714285714285715
+],
+"yoloe-m|640|lever_handle|door handle|0.1": [
+0.2,
+0.17857142857142858
+],
+"yoloe-m|640|lever_handle|handle|0.05": [
+0.2,
+0.10714285714285714
+],
+"yoloe-m|640|lever_handle|handle|0.1": [
+0.1,
+0.10714285714285714
+],
+"yoloe-m|640|lever_handle|lever handle|0.05": [
+0.6,
+0.42857142857142855
+],
+"yoloe-m|640|lever_handle|lever handle|0.1": [
+0.5,
+0.2857142857142857
+],
+"yoloe-m|640|lever_handle|door lever|0.05": [
+0.3,
+0.32142857142857145
+],
+"yoloe-m|640|lever_handle|door lever|0.1": [
+0.2,
+0.2857142857142857
+],
+"yoloe-m|640|lever_handle|lever|0.05": [
+0.4,
+0.14285714285714285
+],
+"yoloe-m|640|lever_handle|lever|0.1": [
+0.2,
+0.07142857142857142
+],
+"yoloe-m|640|lever_handle|doorknob|0.05": [
+0.3,
+0.17857142857142858
+],
+"yoloe-m|640|lever_handle|doorknob|0.1": [
+0.3,
+0.14285714285714285
+],
+"yoloe-m|640|lever_handle|door handle lever|0.05": [
+0.3,
+0.39285714285714285
+],
+"yoloe-m|640|lever_handle|door handle lever|0.1": [
+0.3,
+0.35714285714285715
+],
+"yoloe-m|640|door_knob|door knob|0.05": [
+0.1,
+0.17857142857142858
+],
+"yoloe-m|640|door_knob|door knob|0.1": [
+0.1,
+0.10714285714285714
+],
+"yoloe-m|640|door_knob|doorknob|0.05": [
+0.1,
+0.17857142857142858
+],
+"yoloe-m|640|door_knob|doorknob|0.1": [
+0.1,
+0.14285714285714285
+],
+"yoloe-m|640|door_knob|knob|0.05": [
+0.2,
+0.21428571428571427
+],
+"yoloe-m|640|door_knob|knob|0.1": [
+0.2,
+0.03571428571428571
+],
+"yoloe-m|640|door_knob|handle|0.05": [
+0.1,
+0.10714285714285714
+],
+"yoloe-m|640|door_knob|handle|0.1": [
+0.0,
+0.10714285714285714
+],
+"yoloe-m|640|door_knob|door handle|0.05": [
+0.1,
+0.35714285714285715
+],
+"yoloe-m|640|door_knob|door handle|0.1": [
+0.1,
+0.17857142857142858
+],
+"yoloe-m|640|door_knob|round knob|0.05": [
+0.5,
+0.5357142857142857
+],
+"yoloe-m|640|door_knob|round knob|0.1": [
+0.4,
+0.42857142857142855
+],
+"yoloe-m|640|cabinet_handle|cabinet handle|0.05": [
+0.2222222222222222,
+0.20512820512820512
+],
+"yoloe-m|640|cabinet_handle|cabinet handle|0.1": [
+0.1111111111111111,
+0.05128205128205128
+],
+"yoloe-m|640|cabinet_handle|handle|0.05": [
+0.0,
+0.1794871794871795
+],
+"yoloe-m|640|cabinet_handle|handle|0.1": [
+0.0,
+0.10256410256410256
+],
+"yoloe-m|640|cabinet_handle|drawer handle|0.05": [
+0.3333333333333333,
+0.20512820512820512
+],
+"yoloe-m|640|cabinet_handle|drawer handle|0.1": [
+0.1111111111111111,
+0.07692307692307693
+],
+"yoloe-m|640|cabinet_handle|drawer pull|0.05": [
+0.1111111111111111,
+0.15384615384615385
+],
+"yoloe-m|640|cabinet_handle|drawer pull|0.1": [
+0.1111111111111111,
+0.02564102564102564
+],
+"yoloe-m|640|cabinet_handle|knob|0.05": [
+0.2222222222222222,
+0.3076923076923077
+],
+"yoloe-m|640|cabinet_handle|knob|0.1": [
+0.0,
+0.1282051282051282
+],
+"yoloe-m|640|cabinet_handle|pull handle|0.05": [
+0.1111111111111111,
+0.15384615384615385
+],
+"yoloe-m|640|cabinet_handle|pull handle|0.1": [
+0.0,
+0.05128205128205128
+],
+"yoloe-m|640|light_switch|light switch|0.05": [
+0.3333333333333333,
+0.05128205128205128
+],
+"yoloe-m|640|light_switch|light switch|0.1": [
+0.1111111111111111,
+0.05128205128205128
+],
+"yoloe-m|640|light_switch|switch|0.05": [
+0.8888888888888888,
+0.23076923076923078
+],
+"yoloe-m|640|light_switch|switch|0.1": [
+0.8888888888888888,
+0.1282051282051282
+],
+"yoloe-m|640|light_switch|wall switch|0.05": [
+0.3333333333333333,
+0.1794871794871795
+],
+"yoloe-m|640|light_switch|wall switch|0.1": [
+0.3333333333333333,
+0.07692307692307693
+],
+"yoloe-m|640|light_switch|switch plate|0.05": [
+0.7777777777777778,
+0.28205128205128205
+],
+"yoloe-m|640|light_switch|switch plate|0.1": [
+0.6666666666666666,
+0.23076923076923078
+],
+"yoloe-m|640|light_switch|electrical switch|0.05": [
+0.4444444444444444,
+0.23076923076923078
+],
+"yoloe-m|640|light_switch|electrical switch|0.1": [
+0.4444444444444444,
+0.07692307692307693
+],
+"yoloe-m|640|light_switch|wall plate|0.05": [
+0.5555555555555556,
+0.28205128205128205
+],
+"yoloe-m|640|light_switch|wall plate|0.1": [
+0.5555555555555556,
+0.20512820512820512
+],
+"yoloe-m|640|cup|cup|0.05": [
+1.0,
+0.21052631578947367
+],
+"yoloe-m|640|cup|cup|0.1": [
+1.0,
+0.15789473684210525
+],
+"yoloe-m|640|cup|mug|0.05": [
+1.0,
+0.10526315789473684
+],
+"yoloe-m|640|cup|mug|0.1": [
+1.0,
+0.05263157894736842
+],
+"yoloe-m|640|cup|coffee cup|0.05": [
+1.0,
+0.02631578947368421
+],
+"yoloe-m|640|cup|coffee cup|0.1": [
+0.9,
+0.02631578947368421
+],
+"yoloe-m|1024|lever_handle|door handle|0.05": [
+0.3,
+0.2857142857142857
+],
+"yoloe-m|1024|lever_handle|door handle|0.1": [
+0.2,
+0.17857142857142858
+],
+"yoloe-m|1024|lever_handle|handle|0.05": [
+0.4,
+0.17857142857142858
+],
+"yoloe-m|1024|lever_handle|handle|0.1": [
+0.1,
+0.07142857142857142
+],
+"yoloe-m|1024|lever_handle|lever handle|0.05": [
+0.7,
+0.5
+],
+"yoloe-m|1024|lever_handle|lever handle|0.1": [
+0.5,
+0.21428571428571427
+],
+"yoloe-m|1024|lever_handle|door lever|0.05": [
+0.3,
+0.32142857142857145
+],
+"yoloe-m|1024|lever_handle|door lever|0.1": [
+0.2,
+0.21428571428571427
+],
+"yoloe-m|1024|lever_handle|lever|0.05": [
+0.1,
+0.17857142857142858
+],
+"yoloe-m|1024|lever_handle|lever|0.1": [
+0.0,
+0.10714285714285714
+],
+"yoloe-m|1024|lever_handle|doorknob|0.05": [
+0.2,
+0.2857142857142857
+],
+"yoloe-m|1024|lever_handle|doorknob|0.1": [
+0.1,
+0.21428571428571427
+],
+"yoloe-m|1024|lever_handle|door handle lever|0.05": [
+0.6,
+0.5357142857142857
+],
+"yoloe-m|1024|lever_handle|door handle lever|0.1": [
+0.4,
+0.2857142857142857
+],
+"yoloe-m|1024|door_knob|door knob|0.05": [
+0.0,
+0.21428571428571427
+],
+"yoloe-m|1024|door_knob|door knob|0.1": [
+0.0,
+0.14285714285714285
+],
+"yoloe-m|1024|door_knob|doorknob|0.05": [
+0.0,
+0.2857142857142857
+],
+"yoloe-m|1024|door_knob|doorknob|0.1": [
+0.0,
+0.21428571428571427
+],
+"yoloe-m|1024|door_knob|knob|0.05": [
+0.1,
+0.21428571428571427
+],
+"yoloe-m|1024|door_knob|knob|0.1": [
+0.1,
+0.03571428571428571
+],
+"yoloe-m|1024|door_knob|handle|0.05": [
+0.0,
+0.17857142857142858
+],
+"yoloe-m|1024|door_knob|handle|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloe-m|1024|door_knob|door handle|0.05": [
+0.2,
+0.2857142857142857
+],
+"yoloe-m|1024|door_knob|door handle|0.1": [
+0.0,
+0.17857142857142858
+],
+"yoloe-m|1024|door_knob|round knob|0.05": [
+0.2,
+0.5357142857142857
+],
+"yoloe-m|1024|door_knob|round knob|0.1": [
+0.2,
+0.5
+],
+"yoloe-m|1024|cabinet_handle|cabinet handle|0.05": [
+0.2222222222222222,
+0.2564102564102564
+],
+"yoloe-m|1024|cabinet_handle|cabinet handle|0.1": [
+0.0,
+0.10256410256410256
+],
+"yoloe-m|1024|cabinet_handle|handle|0.05": [
+0.1111111111111111,
+0.20512820512820512
+],
+"yoloe-m|1024|cabinet_handle|handle|0.1": [
+0.0,
+0.07692307692307693
+],
+"yoloe-m|1024|cabinet_handle|drawer handle|0.05": [
+0.1111111111111111,
+0.20512820512820512
+],
+"yoloe-m|1024|cabinet_handle|drawer handle|0.1": [
+0.0,
+0.10256410256410256
+],
+"yoloe-m|1024|cabinet_handle|drawer pull|0.05": [
+0.0,
+0.1794871794871795
+],
+"yoloe-m|1024|cabinet_handle|drawer pull|0.1": [
+0.0,
+0.05128205128205128
+],
+"yoloe-m|1024|cabinet_handle|knob|0.05": [
+0.0,
+0.2564102564102564
+],
+"yoloe-m|1024|cabinet_handle|knob|0.1": [
+0.0,
+0.07692307692307693
+],
+"yoloe-m|1024|cabinet_handle|pull handle|0.05": [
+0.0,
+0.2564102564102564
+],
+"yoloe-m|1024|cabinet_handle|pull handle|0.1": [
+0.0,
+0.07692307692307693
+],
+"yoloe-m|1024|light_switch|light switch|0.05": [
+0.1111111111111111,
+0.07692307692307693
+],
+"yoloe-m|1024|light_switch|light switch|0.1": [
+0.1111111111111111,
+0.05128205128205128
+],
+"yoloe-m|1024|light_switch|switch|0.05": [
+0.7777777777777778,
+0.3076923076923077
+],
+"yoloe-m|1024|light_switch|switch|0.1": [
+0.7777777777777778,
+0.10256410256410256
+],
+"yoloe-m|1024|light_switch|wall switch|0.05": [
+0.2222222222222222,
+0.1282051282051282
+],
+"yoloe-m|1024|light_switch|wall switch|0.1": [
+0.1111111111111111,
+0.05128205128205128
+],
+"yoloe-m|1024|light_switch|switch plate|0.05": [
+0.7777777777777778,
+0.28205128205128205
+],
+"yoloe-m|1024|light_switch|switch plate|0.1": [
+0.5555555555555556,
+0.1794871794871795
+],
+"yoloe-m|1024|light_switch|electrical switch|0.05": [
+0.4444444444444444,
+0.1282051282051282
+],
+"yoloe-m|1024|light_switch|electrical switch|0.1": [
+0.3333333333333333,
+0.07692307692307693
+],
+"yoloe-m|1024|light_switch|wall plate|0.05": [
+0.5555555555555556,
+0.23076923076923078
+],
+"yoloe-m|1024|light_switch|wall plate|0.1": [
+0.5555555555555556,
+0.15384615384615385
+],
+"yoloe-m|1024|cup|cup|0.05": [
+1.0,
+0.4473684210526316
+],
+"yoloe-m|1024|cup|cup|0.1": [
+1.0,
+0.2631578947368421
+],
+"yoloe-m|1024|cup|mug|0.05": [
+1.0,
+0.2631578947368421
+],
+"yoloe-m|1024|cup|mug|0.1": [
+1.0,
+0.18421052631578946
+],
+"yoloe-m|1024|cup|coffee cup|0.05": [
+1.0,
+0.10526315789473684
+],
+"yoloe-m|1024|cup|coffee cup|0.1": [
+1.0,
+0.07894736842105263
+],
+"yoloworld|640|lever_handle|door handle|0.05": [
+0.1,
+0.14285714285714285
+],
+"yoloworld|640|lever_handle|door handle|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|lever_handle|handle|0.05": [
+0.5,
+0.32142857142857145
+],
+"yoloworld|640|lever_handle|handle|0.1": [
+0.4,
+0.17857142857142858
+],
+"yoloworld|640|lever_handle|lever handle|0.05": [
+0.5,
+0.10714285714285714
+],
+"yoloworld|640|lever_handle|lever handle|0.1": [
+0.1,
+0.03571428571428571
+],
+"yoloworld|640|lever_handle|door lever|0.05": [
+0.0,
+0.0
+],
+"yoloworld|640|lever_handle|door lever|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|lever_handle|lever|0.05": [
+0.0,
+0.0
+],
+"yoloworld|640|lever_handle|lever|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|lever_handle|doorknob|0.05": [
+0.0,
+0.03571428571428571
+],
+"yoloworld|640|lever_handle|doorknob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|lever_handle|door handle lever|0.05": [
+0.1,
+0.10714285714285714
+],
+"yoloworld|640|lever_handle|door handle lever|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloworld|640|door_knob|door knob|0.05": [
+0.0,
+0.0
+],
+"yoloworld|640|door_knob|door knob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|door_knob|doorknob|0.05": [
+0.0,
+0.03571428571428571
+],
+"yoloworld|640|door_knob|doorknob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|door_knob|knob|0.05": [
+0.0,
+0.03571428571428571
+],
+"yoloworld|640|door_knob|knob|0.1": [
+0.0,
+0.03571428571428571
+],
+"yoloworld|640|door_knob|handle|0.05": [
+0.2,
+0.32142857142857145
+],
+"yoloworld|640|door_knob|handle|0.1": [
+0.2,
+0.17857142857142858
+],
+"yoloworld|640|door_knob|door handle|0.05": [
+0.0,
+0.14285714285714285
+],
+"yoloworld|640|door_knob|door handle|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|door_knob|round knob|0.05": [
+0.1,
+0.07142857142857142
+],
+"yoloworld|640|door_knob|round knob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|cabinet_handle|cabinet handle|0.05": [
+0.0,
+0.10256410256410256
+],
+"yoloworld|640|cabinet_handle|cabinet handle|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|cabinet_handle|handle|0.05": [
+0.3333333333333333,
+0.4358974358974359
+],
+"yoloworld|640|cabinet_handle|handle|0.1": [
+0.2222222222222222,
+0.3076923076923077
+],
+"yoloworld|640|cabinet_handle|drawer handle|0.05": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|640|cabinet_handle|drawer handle|0.1": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|640|cabinet_handle|drawer pull|0.05": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|640|cabinet_handle|drawer pull|0.1": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|640|cabinet_handle|knob|0.05": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|640|cabinet_handle|knob|0.1": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|640|cabinet_handle|pull handle|0.05": [
+0.1111111111111111,
+0.15384615384615385
+],
+"yoloworld|640|cabinet_handle|pull handle|0.1": [
+0.0,
+0.07692307692307693
+],
+"yoloworld|640|light_switch|light switch|0.05": [
+0.4444444444444444,
+0.0
+],
+"yoloworld|640|light_switch|light switch|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|light_switch|switch|0.05": [
+0.1111111111111111,
+0.05128205128205128
+],
+"yoloworld|640|light_switch|switch|0.1": [
+0.1111111111111111,
+0.0
+],
+"yoloworld|640|light_switch|wall switch|0.05": [
+0.5555555555555556,
+0.10256410256410256
+],
+"yoloworld|640|light_switch|wall switch|0.1": [
+0.1111111111111111,
+0.0
+],
+"yoloworld|640|light_switch|switch plate|0.05": [
+0.2222222222222222,
+0.0
+],
+"yoloworld|640|light_switch|switch plate|0.1": [
+0.2222222222222222,
+0.0
+],
+"yoloworld|640|light_switch|electrical switch|0.05": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|640|light_switch|electrical switch|0.1": [
+0.0,
+0.0
+],
+"yoloworld|640|light_switch|wall plate|0.05": [
+0.7777777777777778,
+0.358974358974359
+],
+"yoloworld|640|light_switch|wall plate|0.1": [
+0.7777777777777778,
+0.1794871794871795
+],
+"yoloworld|640|cup|cup|0.05": [
+1.0,
+0.34210526315789475
+],
+"yoloworld|640|cup|cup|0.1": [
+1.0,
+0.21052631578947367
+],
+"yoloworld|640|cup|mug|0.05": [
+1.0,
+0.2631578947368421
+],
+"yoloworld|640|cup|mug|0.1": [
+1.0,
+0.15789473684210525
+],
+"yoloworld|640|cup|coffee cup|0.05": [
+1.0,
+0.23684210526315788
+],
+"yoloworld|640|cup|coffee cup|0.1": [
+1.0,
+0.15789473684210525
+],
+"yoloworld|1024|lever_handle|door handle|0.05": [
+0.1,
+0.07142857142857142
+],
+"yoloworld|1024|lever_handle|door handle|0.1": [
+0.0,
+0.03571428571428571
+],
+"yoloworld|1024|lever_handle|handle|0.05": [
+0.5,
+0.42857142857142855
+],
+"yoloworld|1024|lever_handle|handle|0.1": [
+0.4,
+0.21428571428571427
+],
+"yoloworld|1024|lever_handle|lever handle|0.05": [
+0.4,
+0.17857142857142858
+],
+"yoloworld|1024|lever_handle|lever handle|0.1": [
+0.2,
+0.10714285714285714
+],
+"yoloworld|1024|lever_handle|door lever|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|lever_handle|door lever|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|lever_handle|lever|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|lever_handle|lever|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|lever_handle|doorknob|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|lever_handle|doorknob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|lever_handle|door handle lever|0.05": [
+0.2,
+0.10714285714285714
+],
+"yoloworld|1024|lever_handle|door handle lever|0.1": [
+0.1,
+0.03571428571428571
+],
+"yoloworld|1024|door_knob|door knob|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|door_knob|door knob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|door_knob|doorknob|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|door_knob|doorknob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|door_knob|knob|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|door_knob|knob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|door_knob|handle|0.05": [
+0.2,
+0.42857142857142855
+],
+"yoloworld|1024|door_knob|handle|0.1": [
+0.2,
+0.21428571428571427
+],
+"yoloworld|1024|door_knob|door handle|0.05": [
+0.2,
+0.07142857142857142
+],
+"yoloworld|1024|door_knob|door handle|0.1": [
+0.0,
+0.03571428571428571
+],
+"yoloworld|1024|door_knob|round knob|0.05": [
+0.0,
+0.07142857142857142
+],
+"yoloworld|1024|door_knob|round knob|0.1": [
+0.0,
+0.03571428571428571
+],
+"yoloworld|1024|cabinet_handle|cabinet handle|0.05": [
+0.0,
+0.23076923076923078
+],
+"yoloworld|1024|cabinet_handle|cabinet handle|0.1": [
+0.0,
+0.05128205128205128
+],
+"yoloworld|1024|cabinet_handle|handle|0.05": [
+0.2222222222222222,
+0.48717948717948717
+],
+"yoloworld|1024|cabinet_handle|handle|0.1": [
+0.1111111111111111,
+0.3333333333333333
+],
+"yoloworld|1024|cabinet_handle|drawer handle|0.05": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|1024|cabinet_handle|drawer handle|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|cabinet_handle|drawer pull|0.05": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|1024|cabinet_handle|drawer pull|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|cabinet_handle|knob|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|cabinet_handle|knob|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|cabinet_handle|pull handle|0.05": [
+0.0,
+0.1282051282051282
+],
+"yoloworld|1024|cabinet_handle|pull handle|0.1": [
+0.0,
+0.02564102564102564
+],
+"yoloworld|1024|light_switch|light switch|0.05": [
+0.2222222222222222,
+0.0
+],
+"yoloworld|1024|light_switch|light switch|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|light_switch|switch|0.05": [
+0.2222222222222222,
+0.0
+],
+"yoloworld|1024|light_switch|switch|0.1": [
+0.1111111111111111,
+0.0
+],
+"yoloworld|1024|light_switch|wall switch|0.05": [
+0.2222222222222222,
+0.05128205128205128
+],
+"yoloworld|1024|light_switch|wall switch|0.1": [
+0.2222222222222222,
+0.0
+],
+"yoloworld|1024|light_switch|switch plate|0.05": [
+0.1111111111111111,
+0.02564102564102564
+],
+"yoloworld|1024|light_switch|switch plate|0.1": [
+0.1111111111111111,
+0.0
+],
+"yoloworld|1024|light_switch|electrical switch|0.05": [
+0.0,
+0.0
+],
+"yoloworld|1024|light_switch|electrical switch|0.1": [
+0.0,
+0.0
+],
+"yoloworld|1024|light_switch|wall plate|0.05": [
+0.7777777777777778,
+0.41025641025641024
+],
+"yoloworld|1024|light_switch|wall plate|0.1": [
+0.5555555555555556,
+0.23076923076923078
+],
+"yoloworld|1024|cup|cup|0.05": [
+0.9,
+0.4473684210526316
+],
+"yoloworld|1024|cup|cup|0.1": [
+0.9,
+0.34210526315789475
+],
+"yoloworld|1024|cup|mug|0.05": [
+1.0,
+0.4473684210526316
+],
+"yoloworld|1024|cup|mug|0.1": [
+1.0,
+0.23684210526315788
+],
+"yoloworld|1024|cup|coffee cup|0.05": [
+1.0,
+0.3157894736842105
+],
+"yoloworld|1024|cup|coffee cup|0.1": [
+1.0,
+0.15789473684210525
+],
+"yoloe26|640|lever_handle|door handle|0.05": [
+0.2,
+0.07142857142857142
+],
+"yoloe26|640|lever_handle|door handle|0.1": [
+0.2,
+0.07142857142857142
+],
+"yoloe26|640|lever_handle|handle|0.05": [
+0.5,
+0.14285714285714285
+],
+"yoloe26|640|lever_handle|handle|0.1": [
+0.3,
+0.03571428571428571
+],
+"yoloe26|640|lever_handle|lever handle|0.05": [
+0.4,
+0.10714285714285714
+],
+"yoloe26|640|lever_handle|lever handle|0.1": [
+0.3,
+0.03571428571428571
+],
+"yoloe26|640|lever_handle|door lever|0.05": [
+0.2,
+0.07142857142857142
+],
+"yoloe26|640|lever_handle|door lever|0.1": [
+0.2,
+0.03571428571428571
+],
+"yoloe26|640|lever_handle|lever|0.05": [
+0.6,
+0.14285714285714285
+],
+"yoloe26|640|lever_handle|lever|0.1": [
+0.4,
+0.10714285714285714
+],
+"yoloe26|640|lever_handle|doorknob|0.05": [
+0.2,
+0.10714285714285714
+],
+"yoloe26|640|lever_handle|doorknob|0.1": [
+0.1,
+0.0
+],
+"yoloe26|640|lever_handle|door handle lever|0.05": [
+0.3,
+0.10714285714285714
+],
+"yoloe26|640|lever_handle|door handle lever|0.1": [
+0.3,
+0.07142857142857142
+],
+"yoloe26|640|door_knob|door knob|0.05": [
+0.0,
+0.17857142857142858
+],
+"yoloe26|640|door_knob|door knob|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloe26|640|door_knob|doorknob|0.05": [
+0.0,
+0.10714285714285714
+],
+"yoloe26|640|door_knob|doorknob|0.1": [
+0.0,
+0.0
+],
+"yoloe26|640|door_knob|knob|0.05": [
+0.0,
+0.17857142857142858
+],
+"yoloe26|640|door_knob|knob|0.1": [
+0.0,
+0.14285714285714285
+],
+"yoloe26|640|door_knob|handle|0.05": [
+0.1,
+0.14285714285714285
+],
+"yoloe26|640|door_knob|handle|0.1": [
+0.0,
+0.03571428571428571
+],
+"yoloe26|640|door_knob|door handle|0.05": [
+0.0,
+0.07142857142857142
+],
+"yoloe26|640|door_knob|door handle|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloe26|640|door_knob|round knob|0.05": [
+0.1,
+0.21428571428571427
+],
+"yoloe26|640|door_knob|round knob|0.1": [
+0.0,
+0.14285714285714285
+],
+"yoloe26|640|cabinet_handle|cabinet handle|0.05": [
+0.1111111111111111,
+0.1794871794871795
+],
+"yoloe26|640|cabinet_handle|cabinet handle|0.1": [
+0.1111111111111111,
+0.07692307692307693
+],
+"yoloe26|640|cabinet_handle|handle|0.05": [
+0.1111111111111111,
+0.28205128205128205
+],
+"yoloe26|640|cabinet_handle|handle|0.1": [
+0.1111111111111111,
+0.10256410256410256
+],
+"yoloe26|640|cabinet_handle|drawer handle|0.05": [
+0.0,
+0.15384615384615385
+],
+"yoloe26|640|cabinet_handle|drawer handle|0.1": [
+0.0,
+0.07692307692307693
+],
+"yoloe26|640|cabinet_handle|drawer pull|0.05": [
+0.0,
+0.2564102564102564
+],
+"yoloe26|640|cabinet_handle|drawer pull|0.1": [
+0.0,
+0.1282051282051282
+],
+"yoloe26|640|cabinet_handle|knob|0.05": [
+0.1111111111111111,
+0.2564102564102564
+],
+"yoloe26|640|cabinet_handle|knob|0.1": [
+0.1111111111111111,
+0.15384615384615385
+],
+"yoloe26|640|cabinet_handle|pull handle|0.05": [
+0.1111111111111111,
+0.15384615384615385
+],
+"yoloe26|640|cabinet_handle|pull handle|0.1": [
+0.0,
+0.05128205128205128
+],
+"yoloe26|640|light_switch|light switch|0.05": [
+0.1111111111111111,
+0.10256410256410256
+],
+"yoloe26|640|light_switch|light switch|0.1": [
+0.1111111111111111,
+0.02564102564102564
+],
+"yoloe26|640|light_switch|switch|0.05": [
+0.2222222222222222,
+0.1794871794871795
+],
+"yoloe26|640|light_switch|switch|0.1": [
+0.1111111111111111,
+0.10256410256410256
+],
+"yoloe26|640|light_switch|wall switch|0.05": [
+0.3333333333333333,
+0.10256410256410256
+],
+"yoloe26|640|light_switch|wall switch|0.1": [
+0.1111111111111111,
+0.02564102564102564
+],
+"yoloe26|640|light_switch|switch plate|0.05": [
+0.3333333333333333,
+0.1282051282051282
+],
+"yoloe26|640|light_switch|switch plate|0.1": [
+0.0,
+0.10256410256410256
+],
+"yoloe26|640|light_switch|electrical switch|0.05": [
+0.1111111111111111,
+0.15384615384615385
+],
+"yoloe26|640|light_switch|electrical switch|0.1": [
+0.1111111111111111,
+0.10256410256410256
+],
+"yoloe26|640|light_switch|wall plate|0.05": [
+0.0,
+0.05128205128205128
+],
+"yoloe26|640|light_switch|wall plate|0.1": [
+0.0,
+0.02564102564102564
+],
+"yoloe26|640|cup|cup|0.05": [
+1.0,
+0.23684210526315788
+],
+"yoloe26|640|cup|cup|0.1": [
+1.0,
+0.15789473684210525
+],
+"yoloe26|640|cup|mug|0.05": [
+1.0,
+0.13157894736842105
+],
+"yoloe26|640|cup|mug|0.1": [
+1.0,
+0.05263157894736842
+],
+"yoloe26|640|cup|coffee cup|0.05": [
+1.0,
+0.10526315789473684
+],
+"yoloe26|640|cup|coffee cup|0.1": [
+1.0,
+0.05263157894736842
+],
+"yoloe26|1024|lever_handle|door handle|0.05": [
+0.3,
+0.10714285714285714
+],
+"yoloe26|1024|lever_handle|door handle|0.1": [
+0.3,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|handle|0.05": [
+0.7,
+0.10714285714285714
+],
+"yoloe26|1024|lever_handle|handle|0.1": [
+0.3,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|lever handle|0.05": [
+0.4,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|lever handle|0.1": [
+0.2,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|door lever|0.05": [
+0.2,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|door lever|0.1": [
+0.2,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|lever|0.05": [
+0.5,
+0.14285714285714285
+],
+"yoloe26|1024|lever_handle|lever|0.1": [
+0.3,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|doorknob|0.05": [
+0.2,
+0.17857142857142858
+],
+"yoloe26|1024|lever_handle|doorknob|0.1": [
+0.1,
+0.10714285714285714
+],
+"yoloe26|1024|lever_handle|door handle lever|0.05": [
+0.5,
+0.07142857142857142
+],
+"yoloe26|1024|lever_handle|door handle lever|0.1": [
+0.2,
+0.07142857142857142
+],
+"yoloe26|1024|door_knob|door knob|0.05": [
+0.0,
+0.25
+],
+"yoloe26|1024|door_knob|door knob|0.1": [
+0.0,
+0.14285714285714285
+],
+"yoloe26|1024|door_knob|doorknob|0.05": [
+0.0,
+0.17857142857142858
+],
+"yoloe26|1024|door_knob|doorknob|0.1": [
+0.0,
+0.10714285714285714
+],
+"yoloe26|1024|door_knob|knob|0.05": [
+0.1,
+0.21428571428571427
+],
+"yoloe26|1024|door_knob|knob|0.1": [
+0.0,
+0.14285714285714285
+],
+"yoloe26|1024|door_knob|handle|0.05": [
+0.2,
+0.10714285714285714
+],
+"yoloe26|1024|door_knob|handle|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloe26|1024|door_knob|door handle|0.05": [
+0.0,
+0.10714285714285714
+],
+"yoloe26|1024|door_knob|door handle|0.1": [
+0.0,
+0.07142857142857142
+],
+"yoloe26|1024|door_knob|round knob|0.05": [
+0.1,
+0.32142857142857145
+],
+"yoloe26|1024|door_knob|round knob|0.1": [
+0.1,
+0.21428571428571427
+],
+"yoloe26|1024|cabinet_handle|cabinet handle|0.05": [
+0.0,
+0.20512820512820512
+],
+"yoloe26|1024|cabinet_handle|cabinet handle|0.1": [
+0.0,
+0.1282051282051282
+],
+"yoloe26|1024|cabinet_handle|handle|0.05": [
+0.0,
+0.3333333333333333
+],
+"yoloe26|1024|cabinet_handle|handle|0.1": [
+0.0,
+0.15384615384615385
+],
+"yoloe26|1024|cabinet_handle|drawer handle|0.05": [
+0.0,
+0.23076923076923078
+],
+"yoloe26|1024|cabinet_handle|drawer handle|0.1": [
+0.0,
+0.10256410256410256
+],
+"yoloe26|1024|cabinet_handle|drawer pull|0.05": [
+0.0,
+0.2564102564102564
+],
+"yoloe26|1024|cabinet_handle|drawer pull|0.1": [
+0.0,
+0.20512820512820512
+],
+"yoloe26|1024|cabinet_handle|knob|0.05": [
+0.2222222222222222,
+0.3076923076923077
+],
+"yoloe26|1024|cabinet_handle|knob|0.1": [
+0.0,
+0.15384615384615385
+],
+"yoloe26|1024|cabinet_handle|pull handle|0.05": [
+0.0,
+0.1794871794871795
+],
+"yoloe26|1024|cabinet_handle|pull handle|0.1": [
+0.0,
+0.10256410256410256
+],
+"yoloe26|1024|light_switch|light switch|0.05": [
+0.1111111111111111,
+0.05128205128205128
+],
+"yoloe26|1024|light_switch|light switch|0.1": [
+0.1111111111111111,
+0.02564102564102564
+],
+"yoloe26|1024|light_switch|switch|0.05": [
+0.5555555555555556,
+0.15384615384615385
+],
+"yoloe26|1024|light_switch|switch|0.1": [
+0.1111111111111111,
+0.10256410256410256
+],
+"yoloe26|1024|light_switch|wall switch|0.05": [
+0.2222222222222222,
+0.1282051282051282
+],
+"yoloe26|1024|light_switch|wall switch|0.1": [
+0.1111111111111111,
+0.07692307692307693
+],
+"yoloe26|1024|light_switch|switch plate|0.05": [
+0.4444444444444444,
+0.1282051282051282
+],
+"yoloe26|1024|light_switch|switch plate|0.1": [
+0.1111111111111111,
+0.07692307692307693
+],
+"yoloe26|1024|light_switch|electrical switch|0.05": [
+0.3333333333333333,
+0.15384615384615385
+],
+"yoloe26|1024|light_switch|electrical switch|0.1": [
+0.1111111111111111,
+0.05128205128205128
+],
+"yoloe26|1024|light_switch|wall plate|0.05": [
+0.2222222222222222,
+0.05128205128205128
+],
+"yoloe26|1024|light_switch|wall plate|0.1": [
+0.0,
+0.05128205128205128
+],
+"yoloe26|1024|cup|cup|0.05": [
+1.0,
+0.34210526315789475
+],
+"yoloe26|1024|cup|cup|0.1": [
+1.0,
+0.21052631578947367
+],
+"yoloe26|1024|cup|mug|0.05": [
+1.0,
+0.13157894736842105
+],
+"yoloe26|1024|cup|mug|0.1": [
+1.0,
+0.05263157894736842
+],
+"yoloe26|1024|cup|coffee cup|0.05": [
+1.0,
+0.15789473684210525
+],
+"yoloe26|1024|cup|coffee cup|0.1": [
+1.0,
+0.13157894736842105
+]
+}
